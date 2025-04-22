@@ -1,0 +1,29 @@
+button:not(.restart) {
+  color: #e3e3e3;
+  width: 160px;
+  height: 160px;
+  border: 0;
+  border-radius: 12px;
+  transition: all 0.3s;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  filter: brightness(0.75);
+  cursor: pointer;
+}
+
+button:not(.restart) h1 {
+  width: 33px;
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.75));
+}
+
+
+@media (max-width: 800px) {
+  button {
+    width: 100px;
+    height: 100px;
+  }
+}
