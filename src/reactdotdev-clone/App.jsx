@@ -6,7 +6,6 @@ import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Learn from "./pages/Learn";
 import Home from "./pages/Home";
-// import InstallationPage from "./pages/InstallationPage";
 import Community from "./pages/Community";
 import Blog from "./pages/Blog";
 import ErrorPage from "./pages/ErrorPage";

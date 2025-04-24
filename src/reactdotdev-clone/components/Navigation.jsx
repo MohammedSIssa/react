@@ -13,7 +13,7 @@ export default function Navigation() {
     <nav className="nav-bar">
       <div className="logo">
         <NavLink to="/">
-          <Atom size={50} />
+          <Atom size={38} />
         </NavLink>
       </div>
 
@@ -36,9 +36,9 @@ export default function Navigation() {
         onClick={() => dispatch({ type: "toggle_theme" })}
       >
         {state.theme === "dark" ? (
-          <Lightbulb size={40} color="#fff" />
+          <Lightbulb size={30} color="#fff" />
         ) : (
-          <Moon size={40} />
+          <Moon size={30} />
         )}
       </button>
     </nav>

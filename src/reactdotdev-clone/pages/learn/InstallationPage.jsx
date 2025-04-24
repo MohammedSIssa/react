@@ -1,8 +1,8 @@
-import React from 'react'
-
 function InstallationPage() {
   return (
-    <div>Installation Page</div>
+    <>
+      <h1>Installation</h1>
+    </>
   )
 }
 

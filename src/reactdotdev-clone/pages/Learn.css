@@ -1,0 +1,45 @@
+.learn-page .content {
+  padding: 20px 50px;
+}
+
+.learn-page {
+  display: flex;
+}
+
+.learn-page .learning-nav ul {
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: calc(100dvh - 70px);
+}
+
+.dark .learn-page .learning-nav ul {
+  border-right: 2px solid var(--dark-border-color);
+} 
+
+.light .learn-page .learning-nav ul {
+  border-right: 2px solid var(--light-border-color);
+}
+
+.learn-page a {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.learn-page a.active {
+  font-weight: bold;
+}
+
+.light .learn-page ul li a.active {
+  background-color: var(--light-active-link-bg-color);
+  color: var(--light-active-link-color);
+}
+
+.dark .learn-page ul li a.active {
+  background-color: var(--dark-active-link-bg-color);
+  color: var(--dark-active-link-color) !important;
+  font-weight: bold;
+}
