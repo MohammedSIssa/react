@@ -13,7 +13,7 @@ export default function Navigation() {
     <nav className="nav-bar">
       <div className="logo">
         <NavLink to="/">
-          <Atom size={38} />
+          <Atom size={38} color={state.theme === "dark" ? "#53c8ff" : "steelblue" } />
         </NavLink>
       </div>
 

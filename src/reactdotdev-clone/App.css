@@ -18,29 +18,81 @@
 
   --dark-h1-color: #53c8ff;
   --light-h1-color: #242424;
+
+  --dark-highlighted-bg-color: #343a46;
+  --light-highlighted-bg-color: #f6f7f9;
+
+  --learning-nav-width: 300px;
+}
+
+.dark {
+  --background-color: var(--dark-bg-color);
+  --font-color: var(--light-bg-color);
+  --header-brightness: brightness(.85);
+  --active-link-bg-color: var(--dark-active-link-bg-color);
+  --active-link-color: var(--dark-active-link-color);
+  --border-color: var(--dark-border-color);
+  --change-theme-brightness: brightness(1.1);
+  --h1-color: var(--dark-h1-color);
+  --logo-color: var(--dark-h1-color);
+  --highlighted-bg-color: var(--dark-highlighted-bg-color);
+  --code-bg: var(--dark-active-link-bg-color);
+  --code-color: var(--light-active-link-bg-color);
+}
+
+.light {
+  --background-color: var(--light-bg-color);
+  --font-color: var(--dark-bg-color);
+  --header-brightness: brightness(1.15);
+  --active-link-bg-color: var(--light-active-link-bg-color);
+  --active-link-color: var(--light-active-link-color);
+  --border-color: var(--light-border-color);
+  --change-theme-brightness: brightness(0.85);
+  --h1-color: var(--light-h1-color);
+  --logo-color: steelblue;
+  --highlighted-bg-color: var(--light-highlighted-bg-color);
+  --code-bg: var(--light-active-link-bg-color);
+  --code-color: var(--dark-active-link-bg-color);
+}
+
+h1 {
+  color: var(--h1-color);
+}
+
+@font-face {
+	font-family: Tuffy;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Tuffy Regular"), local("Tuffy-Regular"), url('./fonts/tuffy.woff2') format("woff2");
+}
+
+@font-face {
+	font-family: TuffyBold;
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Tuffy Bold"), local("Tuffy-Bold"), url('./fonts/tuffy-bold.woff2') format("woff2");
+}
+
+code {
+  background-color: var(--active-link-bg-color);
+  padding: 2px 4px;
 }
 
 .container {
-  font-family: system-ui;
-  height: 100dvh;
+  font-family: Tuffy ,system-ui;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
 
-.dark h1 {
-  color: var(--dark-h1-color);
+h1 {
+  font-family: TuffyBold, system-ui;
+  font-weight: 700;
 }
 
-.light h1 {
-  color: var(--light-h1-color);
-}
-
-.container.dark {
-  background-color: var(--dark-bg-color);
-  color: var(--light-bg-color);
-}
-
-.container.light {
-  background-color: var(--light-bg-color);
-  color: var(--dark-bg-color);
+.container {
+  background-color: var(--background-color);
+  color: var(--font-color);
 }

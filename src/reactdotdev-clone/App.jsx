@@ -16,7 +16,7 @@ function ReactDotDevClone() {
   const [state, dispatch] = useReducer(reducer, { theme: "dark" });
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-clone">
       <PageContext.Provider value={{ state, dispatch }}>
         <div className={"container" + " " + state.theme}>
           <Navigation />

@@ -7,28 +7,59 @@
 }
 
 .home-page h2 {
-  font-size: 120px;
+  font-size: 32px;
+  font-family: TuffyBold, system-ui;
+  margin-bottom: 20px;
+  margin-top: -25px;
 }
 
-button.primary {
+.home-page h2.title {
+  font-size: 52px;
+  margin-top: 25px;
+}
+
+.home-page svg {
+  color: var(--logo-color);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.home-page button {
   color: white;
   border: 0;
   padding: 10px 25px;
   font-size: 18px;
   border-radius: 20px;
+  max-height: 50px;
+  min-height: 50px;
 }
 
-.dark button.primary {
-  background-color: var(--dark-h1-color);
-   a { color: var(--dark-bg-color); }
-}
-
-.light button.primary {
-  background-color: var(--light-h1-color);
-   a { color: var(--light-bg-color); }
+button.primary {
+  background-color: var(--h1-color);
+  a {
+    color: var(--background-color);
+  }
+  border: 2px solid var(--h1-color);
 }
 
 button.primary:hover {
   filter: brightness(0.95);
   cursor: pointer;
+}
+
+button.secondary {
+  border: 2px solid var(--font-color);
+  background-color: var(--background-color);
+  a {
+    color: var(--font-color);
+  }
+}
+
+button.secondary:hover {
+  filter: var(--change-theme-brightness);
 }
