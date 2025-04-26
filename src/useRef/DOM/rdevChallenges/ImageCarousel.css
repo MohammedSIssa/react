@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  max-width: 800px;
+  overflow-x: scroll;
+  gap: 25px;
+  padding: 30px;
+  background-color: #e3e3e3;
+}
+
+img {
+  border: 10px solid #e3e3e3;
+  transition: border 0.4s;
+}
+
+img.active {
+  border: 10px solid steelblue;
+}
