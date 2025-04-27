@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -7,18 +12,20 @@ body {
   height: 100dvh;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
   .container {
     width: 100vw;
     height: auto;
+    max-height: 100dvh;
     aspect-ratio: 9 / 16;
   }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 1000px) {
   .container {
     width: 370px;
     height: auto;
+    max-height: 100dvh;
     aspect-ratio: 9 / 16;
   }
 }

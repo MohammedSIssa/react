@@ -1,0 +1,17 @@
+/* comic-relief-bold */
+@font-face {
+	font-family: 'Comic Relief Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Comic Relief Bold"), local("ComicRelief-Bold"), url(comic-relief-bold.woff2) format("woff2");
+}
+/* comic-relief */
+@font-face {
+	font-family: 'Comic Relief';
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Comic Relief Regular"), local("ComicRelief-Regular"), url(comic-relief.woff2) format("woff2");
+}
+

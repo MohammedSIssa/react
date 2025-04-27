@@ -1,6 +1,57 @@
+@import url('../fonts/comic-relief/comic-relief.css');
+@import url('../fonts/plus-jakarta-sans/plus-jakarta-sans.css');
+
 .home {
   width: 100%;
   height: 100%;
-  background: url('../assets/stars.jpeg');
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../assets/hello.jpeg');
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content * {
+  height: fit-content;
+}
+
+.content h1 {
+  background-color: #8a1e50;
+  color: #efcbda;
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.item {
+  margin: 25px 0;
+  background-color: #fbe5ee;
+  color: #8a1e50;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 10px 15px 5px rgba(0,0,0,0.2);
+}
+
+.thumbnail {
+  width: 100px;
+  height: 70px;
+  background-color: #8a1e50;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
 }
