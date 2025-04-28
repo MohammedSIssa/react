@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Memories from "./pages/Memories";
 import SecretMessage from "./pages/SecretMessage";
+import SpcialGift from "./pages/SpecialGift";
 
 import styles from "./Gift.module.css";
 
@@ -14,7 +15,8 @@ const Gift = () => {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/memories" element={<Memories />}></Route>
-          <Route path="/secret-message" element={<SecretMessage />}></Route>
+          <Route path="/love-letter" element={<SecretMessage />}></Route>
+          <Route path="/special-gift" element={<SpcialGift />}></Route>
         </Routes>
       </div>
     </BrowserRouter>

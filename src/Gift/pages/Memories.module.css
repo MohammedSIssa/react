@@ -1,6 +1,27 @@
 .memories {
-  background: url('../assets/pink.jpeg');
+  width: 100%;
+  height: 100%;
+  position: relative;
+  --header-bg-color: #a9445d;
+  --background-color: #f9ccd2;
+  --no-bg-font-color: #7c2e41;
+  --bg-font-color: #fee0e4;
+
+  background-color: var(--background-color);
+}
+
+.memories .background {
+  background: url("../assets/Hola.jpeg");
   background-size: cover;
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.25;
+}
+
+.content * {
+  z-index: 999;
 }

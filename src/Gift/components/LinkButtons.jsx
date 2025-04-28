@@ -1,7 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { MessageSquareHeart } from "lucide-react";
-import { Film } from "lucide-react";
-import { Gift } from "lucide-react";
 
 export default function NavButtons() {
   return (
