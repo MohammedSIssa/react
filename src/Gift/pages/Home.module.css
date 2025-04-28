@@ -1,25 +1,37 @@
 @import url('../fonts/comic-relief/comic-relief.css');
 @import url('../fonts/plus-jakarta-sans/plus-jakarta-sans.css');
+@import url('../fonts/din-round-pro/din-round-pro.css');
 
 .home {
   width: 100%;
   height: 100%;
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-family: 'DIN Round Pro Bold', system-ui, sans-serif;
   padding: 10px;
   display: flex;
   justify-content: center;
   position: relative;
+  --header-bg-color: #a9445d;
+  --background-color: #f9ccd2;
+  --no-bg-font-color: #7c2e41;
+  --bg-font-color: #fee0e4;
+
+  background-color: var(--background-color);
 }
 
 .background {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('../assets/hello.jpeg');
+  background: url('../assets/pink.jpeg');
   background-size: cover;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 1;
+  opacity: 0.22;
+}
+
+.content {
+  z-index: 999;
 }
 
 .content * {
@@ -27,31 +39,45 @@
 }
 
 .content h1 {
-  background-color: #8a1e50;
-  color: #efcbda;
-  border-radius: 12px;
-  padding: 10px 20px;
   text-align: center;
+  color: var(--bg-font-color);
+  margin-top: 20px;
+  background-color: var(--header-bg-color);
+  border-radius: 12px;
+  padding: 15px 10px;
 }
 
-.item {
-  margin: 25px 0;
-  background-color: #fbe5ee;
-  color: #8a1e50;
-  padding: 10px;
-  border-radius: 12px;
+.content p {
+  color: var(--no-bg-font-color);
+  text-align: center;
+  font-size: 24px;
+  /* font-family: 'DIN Round Pro Light'; */
+  margin-top: 25px;
+}
+
+a {
+  color: var(--no-bg-font-color);
+  text-decoration: none;
+}
+
+.buttons {
   display: flex;
-  gap: 10px;
-  box-shadow: 0 10px 15px 5px rgba(0,0,0,0.2);
+  flex-direction: column;
 }
 
-.thumbnail {
-  width: 100px;
-  height: 70px;
-  background-color: #8a1e50;
-  border-radius: 12px;
+.buttons a {
+  margin: 10px 0;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 22px;
+  padding: 10px 25px;
+  padding-left: 15px;
+  font-size: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 20px 2px rgba(0,0,0,0.20);
+}
+
+
+a span {
+  margin-right: 20px;
+  margin-top: 5px;
 }
