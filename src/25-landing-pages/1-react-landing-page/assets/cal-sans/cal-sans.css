@@ -1,0 +1,9 @@
+/* cal-sans */
+@font-face {
+	font-family: 'Cal Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Cal Sans Regular"), local("CalSans-Regular"), url(cal-sans.woff2) format("woff2");
+}
+
