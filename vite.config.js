@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: '/Gift/',
+  base: '/landing-page-1/',
   plugins: [react()],
   test: {
     environment: 'jsdom',
