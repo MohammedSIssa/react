@@ -1,0 +1,52 @@
+.heroSection {
+  height: 100dvh;
+  min-height: 700px;
+  width: 100%;
+  min-width: 1200px;
+  position: relative;
+  padding: 140px 60px;
+  color: white;
+}
+
+.backgroundImage {
+  position: absolute;
+  background: url('../assets/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  width: calc(100% - 25px);
+  height: calc(100% - 25px);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: brightness(0.75);
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.textContext p {
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.bottomText {
+  position: absolute;
+  bottom: 70px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.actionButton {
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+}
+
+.actionButton button {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+}

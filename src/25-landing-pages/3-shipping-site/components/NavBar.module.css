@@ -1,0 +1,34 @@
+.navBar {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 80px;
+  width: calc(100% - 25px);
+  border-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  background-color: rgba(0,0,0,0.3);
+  backdrop-filter: blur(1px);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  color: white;
+}
+
+.navBarBox ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  font-weight: thin;
+}
+
+.navBarBox ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}

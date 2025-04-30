@@ -1,0 +1,38 @@
+.container {
+  height: 100dvh;
+  min-height: 700px;
+  width: 100%;
+  min-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 70px;
+}
+
+.text p {
+  font-size: 48px;
+}
+
+.gold {
+  color: #fe9a01;
+}
+
+.image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.image img {
+  width: 100%;
+}
