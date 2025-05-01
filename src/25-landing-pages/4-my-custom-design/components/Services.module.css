@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  height: 100dvh;
+  min-height: 700px;
+
+  width: 100%;
+  min-width: 1000px;
+  color: #533102;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background: url('../assets/top.svg');
+  z-index: -1;
+}
+
+.bg {
+  background: url('../assets/page-2-bg.svg');
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-position: center;
+  background-size: cover;
+}
+
+.bottom {
+  background: url('../assets/bottom.svg');
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.content .box2,
+.content .box1 {
+  width: 50%;
+  height: 100%;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 {
+  padding: 200px 50px;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+p {
+  width: 80%;
+  font-size: 20px;
+  line-height: 1.3;
+}

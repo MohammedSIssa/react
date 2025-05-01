@@ -1,0 +1,136 @@
+.container {
+  height: 100dvh;
+  min-height: 700px;
+
+  width: 100%;
+  min-width: 1000px;
+
+  position: relative;
+  color: #533102;
+}
+
+.navBar {
+  background: url("../assets/nav-bg.svg");
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  bottom: -100px;
+  right: 0px;
+  background: url("../assets/hero-circle.svg");
+  z-index: -1;
+}
+
+.heroShape {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 500px;
+  height: 100%;
+  background: url("../assets/hero-shape.svg");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content h1 {
+  font-size: 95px;
+  font-family: Tagesschrift;
+}
+
+.content p {
+  max-width: 80%;
+  line-height: 1.35;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Poppins, system-ui, sans-serif;
+}
+
+.content .box1 {
+  width: 60%;
+  height: 100%;
+  padding-left: 150px;
+  padding-top: 150px;
+}
+
+.content .box1 .learnMore {
+  background-color: #f0bb78;
+  position: relative;
+  color: #533102;
+  border: 0;
+  padding: 20px 70px;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 35px;
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 3px solid #533102;
+  font-family: Poppins, system-ui, sans-serif;
+  animation-name: hovering;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes hovering {
+  100%,0% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+.content .box2 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+.content .box2 img {
+  width: 100%;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: url("../assets/bottom.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.heroBg {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background: url('../assets/hero-bg-2.svg');
+  background-size: cover;
+  background-position: center;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+}

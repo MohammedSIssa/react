@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500"
+   height="1080"
+   viewBox="0 0 132.29166 285.75"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="hero-shape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.53145312"
+     inkscape:cx="-105.37148"
+     inkscape:cy="574.83904"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <rect
+     style="fill:#485419;fill-opacity:0.408331;fill-rule:evenodd;stroke-width:0.327492"
+     id="rect1"
+     width="126.3647"
+     height="336.33337"
+     x="-114.81311"
+     y="-13.119797"
+     ry="0"
+     transform="matrix(0.99999999,-1.125033e-4,0.15594476,0.98776578,0,0)"
+     inkscape:transform-center-x="2.3986039"
+     inkscape:transform-center-y="-2.226065" />
+  <rect
+     style="fill:#212613;fill-opacity:1;fill-rule:evenodd;stroke-width:0.327492"
+     id="rect1-5"
+     width="126.3647"
+     height="336.33337"
+     x="-118.01962"
+     y="-13.884228"
+     ry="0"
+     transform="matrix(0.99999999,-1.125033e-4,0.15594476,0.98776578,0,0)"
+     inkscape:transform-center-x="2.3986112"
+     inkscape:transform-center-y="-2.2260656"
+     inkscape:label="rect1-5" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+</svg>
