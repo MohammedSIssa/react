@@ -1,0 +1,137 @@
+/* avenir-next-lt-pro-bold */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Avenir Next LT Pro Bold"), local("AvenirNextLTPro-Bold"), url(avenir-next-lt-pro-bold.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-bold-condensed */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Bold Condensed"), local("AvenirNextLTPro-BoldCn"), url(avenir-next-lt-pro-bold-condensed.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-bold-condensed-italic */
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Bold Condensed Italic"), local("AvenirNextLTPro-BoldCnIt"), url(avenir-next-lt-pro-bold-condensed-italic.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-condensed */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Condensed"), local("AvenirNextLTPro-Cn"), url(avenir-next-lt-pro-condensed.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-condensed-italic */
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Condensed Italic"), local("AvenirNextLTPro-CnIt"), url(avenir-next-lt-pro-condensed-italic.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-demi */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Avenir Next LT Pro Demi"), local("AvenirNextLTPro-Demi"), url(avenir-next-lt-pro-demi.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-demi-condensed */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Demi Condensed"), local("AvenirNextLTPro-DemiCn"), url(avenir-next-lt-pro-demi-condensed.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-demi-condensed-italic */
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Demi Condensed Italic"), local("AvenirNextLTPro-DemiCnIt"), url(avenir-next-lt-pro-demi-condensed-italic.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-demi-italic */
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: 100%;
+	src: local("Avenir Next LT Pro Demi Italic"), local("AvenirNextLTPro-DemiIt"), url(avenir-next-lt-pro-demi-italic.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-heavy-condensed */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Heavy Condensed"), local("AvenirNextLTPro-HeavyCn"), url(avenir-next-lt-pro-heavy-condensed.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-heavy-condensed-italic */
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Heavy Condensed Italic"), local("AvenirNextLTPro-HeavyCnIt"), url(avenir-next-lt-pro-heavy-condensed-italic.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-italic */
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Avenir Next LT Pro Italic"), local("AvenirNextLTPro-It"), url(avenir-next-lt-pro-italic.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-medium-condensed */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Medium Condensed"), local("AvenirNextLTPro-MediumCn"), url(avenir-next-lt-pro-medium-condensed.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-medium-condensed-italic */
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Medium Condensed Italic"), local("AvenirNextLTPro-MediumCnIt"), url(avenir-next-lt-pro-medium-condensed-italic.woff2) format("woff2");
+}
+/* avenir-next-lt-pro */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: 100%;
+	src: local("Avenir Next LT Pro"), local("AvenirNextLTPro-Regular"), url(avenir-next-lt-pro.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-ultra-light-condensed */
+@font-face {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Ultra Light Condensed"), local("AvenirNextLTPro-UltLtCn"), url(avenir-next-lt-pro-ultra-light-condensed.woff2) format("woff2");
+}
+/* avenir-next-lt-pro-ultra-light-condensed-italic */
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: 75%;
+	src: local("Avenir Next LT Pro Ultra Light Condensed Italic"), local("AvenirNextLTPro-UltLtCnIt"), url(avenir-next-lt-pro-ultra-light-condensed-italic.woff2) format("woff2");
+}
+

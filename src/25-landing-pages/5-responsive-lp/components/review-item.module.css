@@ -1,0 +1,19 @@
+.card {
+  width: 300px;
+  height: 470px;
+  background: linear-gradient(to bottom, #2677ac, #6063dc);
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+p.reviewText {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+p.author {
+  margin-top: 20px;
+  font-weight: 250;
+  color: #e3e3e3;
+}
