@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: '/landing-page-4/',
+  base: '/landing-page-5/',
   plugins: [react(), tailwindcss()],
   test: {
     environment: "jsdom",

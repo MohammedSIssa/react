@@ -10,7 +10,7 @@ import './custom.css'
 
 export default function ReactJobs() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/landing-page-5">
       <NavBar />     
       <Routes>
         <Route path='/' element={<HomePage />}></Route>
