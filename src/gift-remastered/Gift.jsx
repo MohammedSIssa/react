@@ -1,14 +1,17 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import HomePage from './layouts/Home'
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import HomePage from "./layouts/Home";
+import Memories from "./pages/Memories";
 
-import './custom.css'
+import "./custom.css";
 
 export default function GiftRemastered() {
   return (
-    <BrowserRouter basename='/gift'>
+    <BrowserRouter basename="/gift">
       <Routes>
-        <Route path='/' element={<HomePage />}></Route>
+        <Route index element={<HomePage />}></Route>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/memories" element={<Memories />}></Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }

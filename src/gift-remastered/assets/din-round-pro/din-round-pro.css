@@ -8,9 +8,9 @@
 }
 /* din-round-pro-light */
 @font-face {
-	font-family: 'DIN Round Pro Light';
+	font-family: 'DIN Round Pro';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 	font-stretch: 100%;
 	src: local("DINRoundPro-Light Regular"), local("DINRoundPro-Light"), url(din-round-pro-light.woff2) format("woff2");
 }

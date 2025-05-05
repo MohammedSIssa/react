@@ -9,14 +9,18 @@
   font-family: "DIN Round Pro" !important;
 }
 
-.hero {
+.memory-box {
+  direction: rtl;
+}
+
+body {
   background: url("./assets/hero-bg.jpeg");
   background-position: center;
   background-size: cover;
   position: relative;
 }
 
-.hero::before {
+body::before {
   content: "";
   opacity: 0.7;
   background-color: rgb(254, 152, 167);
