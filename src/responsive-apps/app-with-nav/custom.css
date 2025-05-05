@@ -1,0 +1,14 @@
+.home {
+  scroll-snap-type: both mandatory;
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+}
+
+.page {
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: center center;
+      scroll-snap-stop: normal;
+
+      scroll-snap-stop: always;
+      scroll-snap-align: start;
+}
