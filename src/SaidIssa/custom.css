@@ -1,3 +1,6 @@
-a {
-  transition: all 0.4s;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  font-family: Rubik, system-ui;
+  transition: all 0.5s;
 }
