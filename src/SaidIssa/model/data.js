@@ -1,119 +1,33 @@
-export const data = [
-  {
-    title: "الوحدة الأولى",
-    chapters: [
-      {
-        title: "الفصل الأول",
-        lesson: "محتوى الفصل الأول",
-      },
-      {
-        title: "الفصل الثاني",
-        lesson: "محتوى الفصل الثاني",
-      },
-      {
-        title: "الفصل الثالث",
-        lesson: "محتوى الفصل الثالث",
-      },
-      {
-        title: "الفصل الرابع",
-        lesson: "محتوى الفصل الرابع",
-      },
-      {
-        title: "أسئلة",
-        lesson: "أسئلة الوحدة الأولى",
-      },
-      {
-        title: "مراجعة",
-        lesson: "مراجعة الوحدة الأولى",
-      },
-    ],
-  },
-  {
-    title: "الوحدة الثانية",
-    chapters: [
-      {
-        title: "الفصل الأول",
-        lesson: "محتوى الفصل الأولى",
-      },
-      {
-        title: "الفصل الثاني",
-        lesson: "محتوى الفصل الثاني",
-      },
-      {
-        title: "الفصل الثالث",
-        lesson: "محتوى الفصل الثالث",
-      },
-      {
-        title: "أسئلة",
-        lesson: "أسئلة الوحدة الثانية",
-      },
-      {
-        title: "مراجعة",
-        lesson: "مراجعة الوحدة الثانية",
-      },
-    ],
-  },
-  {
-    title: "الوحدة الثالثة",
-    chapters: [
-      {
-        title: "الفصل الأول",
-        lesson: "محتوى الفصل الأول",
-      },
-      {
-        title: "الفصل الثاني",
-        lesson: "محتوى الفصل الثاني",
-      },
-      {
-        title: "الفصل الثالث",
-        lesson: "محتوى الفصل الثالث",
-      },
-      {
-        title: "الفصل الرابع",
-        lesson: "محتوى الفصل الرابع",
-      },
-      {
-        title: "أسئلة",
-        lesson: "أسئلة الوحدة الثالثة",
-      },
-      {
-        title: "مراجعة",
-        lesson: "مراجعة الوحدة الثالثة",
-      },
-    ],
-  },
-];
-
 export const dataHashMap = {
   5: {
-    title: "Suff Khaamis",
+    title: "الصف الخامس",
     data: [
       {
-        chapter: "Chapter 1",
+        chapter: "الوحدة الأولى",
         sections: [
           {
-            sectionName: "Chapter 1 > Section 1",
-            sectionLesson: "Lesson Content",
+            sectionName: "الفصل الأول",
+            sectionLesson: "محتوى الفصل الأول",
           },
         ],
       },
       {
-        chapter: "Chapter 2",
+        chapter: "الوحدة الثانية",
         sections: [
           {
-            sectionName: "Chapter 2 > Section 1",
-            sectionLesson: "Lesson Content",
+            sectionName: "الفصل اﻷول",
+            sectionLesson: "محتوى الفصل الأول",
           },
           {
-            sectionName: "Chapter 2 > Section 2",
-            sectionLesson: "Lesson Content",
+            sectionName: "الفصل الثاني",
+            sectionLesson: "محتوى الفصل الثاني",
           },
         ],
       },
     ],
   },
   6: {
-    title: "Suff Sadess",
+    title: "الصف السادس",
     data: [
       {
         chapter: "Chapter 1",
@@ -127,7 +41,7 @@ export const dataHashMap = {
     ],
   },
   7: {
-    title: "Suff Sabee3",
+    title: "الصف السابع",
     data: [
       {
         chapter: "Chapter 1",
@@ -141,7 +55,7 @@ export const dataHashMap = {
     ],
   },
   8: {
-    title: "Suff Thammiin",
+    title: "الصف الثامن",
     data: [
       {
         chapter: "Chapter 1",
@@ -155,7 +69,7 @@ export const dataHashMap = {
     ],
   },
   9: {
-    title: "Suff Tasse33",
+    title: "الصف التاسع",
     data: [
       {
         chapter: "Chapter 1",
@@ -169,7 +83,7 @@ export const dataHashMap = {
     ],
   },
   10: {
-    title: "Suff Aasher",
+    title: "الصف العاشر",
     data: [
       {
         chapter: "Chapter 1",
@@ -183,7 +97,7 @@ export const dataHashMap = {
     ],
   },
   11: {
-    title: "Suff E7daeesh",
+    title: "الصف الحادي عشر",
     data: [
       {
         chapter: "Chapter 1",
@@ -197,7 +111,7 @@ export const dataHashMap = {
     ],
   },
   12: {
-    title: "Tawjihi",
+    title: "التوجيهي",
     data: [
       {
         chapter: "Chapter 1",
