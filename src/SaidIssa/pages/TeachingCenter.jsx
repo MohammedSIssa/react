@@ -1,17 +1,22 @@
 import { Routes, Route } from "react-router-dom";
 import LessonsNavBar from "../components/LessonsNavBar";
-import GetFirstLesson from "../helpers/getFirstLesson";
 import LessonContent from "./LessonContent";
+import { useParams } from "react-router-dom";
 
 export default function TeachingCenter({ data }) {
+  const { classId } = useParams();
+  const actualData = data[classId];
   return (
     <div className="teaching-center flex min-h-screen h-screen">
-      <LessonsNavBar data={data} />
+      <LessonsNavBar
+        data={actualData.data}
+        classTitle={actualData.title}
+        classId={classId}
+      />
       <Routes>
-        <Route path="/:id" element={<GetFirstLesson />}></Route>
         <Route
           path="/:id/:chapterId"
-          element={<LessonContent data={data} />}
+          element={<LessonContent data={actualData.data} />}
         ></Route>
       </Routes>
     </div>

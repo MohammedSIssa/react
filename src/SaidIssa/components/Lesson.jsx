@@ -13,24 +13,27 @@ const activeSubLinkClassName =
 const defaultSubLinkClassName =
   "p-2 px-10 w-full h-10 flex items-center text-zinc-900 rounded-4xl ";
 
-export default function Lesson({ id, title, chapters }) {
+export default function Lesson({ id, chapter, sections, classId }) {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
+
   useEffect(() => {
-    const isLessonActive = location.pathname.startsWith(`/lesson/${id}`);
+    const isLessonActive = location.pathname.startsWith(
+      `/${classId}/lesson/${id}`
+    );
     setIsOpen(isLessonActive);
-  }, [location.pathname, id]);
+  }, [location.pathname, classId, id]);
 
   return (
     <>
       <NavLink
-        className={({ isActive }) =>
-          isActive ? activeLinkClassName  : defaultLinkClassName
+        className={() =>
+          isOpen ? activeLinkClassName : defaultLinkClassName
         }
-        to={`/lesson/${id}`}
+        to={`/${classId}/lesson/${id}/0`}
       >
-        <p>{title}</p>
+        <p>{chapter}</p>
         <span>
           {isOpen && <MdKeyboardArrowDown size={24} />}
           {isOpen || <MdKeyboardArrowLeft size={24} />}
@@ -38,15 +41,15 @@ export default function Lesson({ id, title, chapters }) {
       </NavLink>
       {isOpen && (
         <div className="bg-zinc-300 w-full p-2 max-w-100 rounded-bl-xl rounded-br-xl">
-          {chapters.map((chapter, idx) => (
+          {sections.map((section, idx) => (
             <NavLink
               className={({ isActive }) =>
                 isActive ? activeSubLinkClassName : defaultSubLinkClassName
               }
-              to={`/lesson/${id}/${idx}`}
-              key={chapter.title}
+              to={`/${classId}/lesson/${id}/${idx}`}
+              key={idx}
             >
-              {chapter.title}
+              {section.sectionName}
             </NavLink>
           ))}
         </div>
