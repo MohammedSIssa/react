@@ -2,5 +2,13 @@
 
 * {
   font-family: Rubik, system-ui;
-  transition: all 0.5s;
+  transition: all 0.15s;
+}
+
+.teaching-center {
+  direction: rtl;
+}
+
+a.section {
+  transition: all 0.05s !important;
 }

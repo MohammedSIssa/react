@@ -1,8 +1,8 @@
 import Lesson from "./Lesson";
 
-export default function Lessons({ data }) {
+export default function LessonsNavBar({ data }) {
   return (
-    <div className="h-full flex p-5 gap-2 flex-col w-80 min-w-80 max-w-80 bg-zinc-900 text-zinc-100">
+    <div className="h-full flex p-5 flex-col w-80 min-w-80 max-w-80 bg-zinc-900 text-zinc-100">
       {data.map((dataItem, id) => (
         <Lesson key={id} id={id} title={dataItem.title} chapters={dataItem.chapters} />
       ))}
