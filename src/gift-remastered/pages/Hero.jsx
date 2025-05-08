@@ -12,8 +12,8 @@ export default function Hero() {
       </div>
       <div className="w-full h-10 text-rose-950 rounded-4xl m-2 mb-8 z-50 text-center">
         <p>
-          It’s been 271 days since the day my world got brighter—the day you
-          walked into my life. 💞
+          It’s been 273 days since the day my world got brighter—the day you
+          walked into it. 💞
         </p>
       </div>
       <Memories />

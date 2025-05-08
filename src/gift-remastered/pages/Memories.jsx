@@ -1,22 +1,7 @@
 import PageHeader from "../components/PageHeader";
 import Memory from "../components/Memory";
 
-const memoriesData = [
-  {
-    title: "اليوم الأول",
-    date: "2024/08/11",
-    time: "2:00PM",
-    story:
-      "تاريخ أول يوم النا مع بعضينا، اكيد تاريخ مهم في شريط ذكرياتنا الحلو",
-  },
-  {
-    title: "أول رسالة",
-    date: "2024/09/01",
-    time: "7:36PM",
-    story:
-      " بتذكر كيف لما قلدتك وحاولت اطعمي العصافير والحمام متلك وفشلت فشل ذريع",
-  },
-];
+import { memories } from "./memories";
 
 export default function Memories() {
   return (
@@ -24,7 +9,7 @@ export default function Memories() {
       <PageHeader text={"Memories"} />
 
       <div className="w-full h-full flex flex-col z-50 gap-5">
-        {memoriesData.map((memory) => (
+        {memories.map((memory) => (
           <Memory data={memory} key={memory.date} />
         ))}
       </div>
