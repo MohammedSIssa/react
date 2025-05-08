@@ -12,3 +12,11 @@
 a.section {
   transition: all 0.05s !important;
 }
+
+.hero {
+  direction: rtl;
+}
+
+.hero h1 {
+  line-height: 1.35;
+}
