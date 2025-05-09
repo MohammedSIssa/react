@@ -4,9 +4,9 @@ import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 const activeLinkClassName =
-  "section py-8 px-5 text-xl w-full h-10 rounded-tr-xl rounded-tl-xl flex items-center border-0 border-emerald-600 border-b-2 flex flex-row items-center justify-between bg-emerald-100 text-emerald-900 font-bold mb-0 ";
+  "section py-8 px-5 text-xl w-full max-w-100 h-10 rounded-tr-xl rounded-tl-xl flex items-center border-0 border-emerald-600 border-b-2 flex flex-row items-center justify-between bg-emerald-100 text-emerald-900 font-bold mb-0 ";
 const defaultLinkClassName =
-  "section p-2 px-5 w-full h-10 flex items-center rounded-md flex flex-row items-center justify-between mb-2 ";
+  "section p-2 px-5 w-full h-10 max-w-100 flex items-center rounded-md flex flex-row items-center justify-between mb-2 ";
 
 const activeSubLinkClassName =
   "p-2 px-10 w-full h-10 flex items-center rounded-xl bg-emerald-700 text-emerald-100 font-bold ";
@@ -19,7 +19,7 @@ export default function Lesson({ id, chapter, sections, classId }) {
 
   useEffect(() => {
     const isLessonActive = location.pathname.startsWith(
-      `/${classId}/lesson/${id}`
+      `/${classId}/lesson/${id}`,
     );
     setIsOpen(isLessonActive);
   }, [location.pathname, classId, id]);
@@ -27,9 +27,7 @@ export default function Lesson({ id, chapter, sections, classId }) {
   return (
     <>
       <NavLink
-        className={() =>
-          isOpen ? activeLinkClassName : defaultLinkClassName
-        }
+        className={() => (isOpen ? activeLinkClassName : defaultLinkClassName)}
         to={`/${classId}/lesson/${id}/0`}
       >
         <p>{chapter}</p>

@@ -11,7 +11,7 @@ export default function LessonContent({ data }) {
 
   return (
     <div className="flex flex-col w-full gap-5 p-10 bg-emerald-100 text-emerald-950">
-      <h1 className="font-bold text-3xl">{content}</h1>
+      <h1 className="font-bold text-xl md:text-2xl xl:text-3xl">{content}</h1>
     </div>
   );
 }
