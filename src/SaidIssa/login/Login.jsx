@@ -72,38 +72,43 @@ export default function Login() {
         className="bg-emerald-950 h-screen flex flex-col w-full items-center justify-center"
       >
         <div className="max-w-lg px-5 border-emerald-700 py-20 rounded-4xl border-2 flex flex-col gap-2 items-center justify-center">
-        <input
-          type="text"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          className="bg-emerald-100 w-full py-5 lg:w-100 text-lg lg:text-2xl px-5 rounded-3xl font-bold text-right"
-          placeholder="اسم المستخدم"
-          autoComplete="off"
-        />
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          className="bg-emerald-100 w-full py-5 lg:w-100 text-lg lg:text-2xl px-5 rounded-3xl font-bold text-right"
-          placeholder="كلمة السر"
-          autoComplete="off"
-        />
-        <button
-          className="bg-emerald-300 text-emerald-900 font-bold px-10 w-full py-5 lg:w-100 text-lg lg:text-2xl rounded-3xl hover:bg-emerald-500 hover:cursor-pointer"
-          type="submit"
-        >
-          سجل الدخول
-        </button>
-        {success && (
-          <p className="text-green-300 text-lg mt-4">
-            ✅ تم تسجيل الدخول بنجاح
-          </p>
-        )}
-        {fail && (
-          <p className="text-red-400 text-lg mt-4">
-            ❌ خطأ في اسم المستخدم أو كلمة المرور
-          </p>
-        )}
+          {!success && (
+            <>
+              <input
+                type="text"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                className="bg-emerald-100 w-full py-5 lg:w-100 text-lg lg:text-2xl px-5 rounded-3xl font-bold text-right"
+                placeholder="اسم المستخدم"
+                autoComplete="off"
+              />
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                className="bg-emerald-100 w-full py-5 lg:w-100 text-lg lg:text-2xl px-5 rounded-3xl font-bold text-right"
+                placeholder="كلمة السر"
+                autoComplete="off"
+              />
+              <button
+                className="bg-emerald-300 text-emerald-900 font-bold px-10 w-full py-5 lg:w-100 text-lg lg:text-2xl rounded-3xl hover:bg-emerald-500 hover:cursor-pointer"
+                type="submit"
+              >
+                سجل الدخول
+              </button>
+            </>
+          )}
+
+          {success && (
+            <p className="text-green-300 text-lg mt-4">
+              ✅ تم تسجيل الدخول بنجاح
+            </p>
+          )}
+          {fail && (
+            <p className="text-red-400 text-lg mt-4">
+              ❌ خطأ في اسم المستخدم أو كلمة المرور
+            </p>
+          )}
         </div>
       </form>
     </>

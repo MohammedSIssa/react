@@ -18,7 +18,7 @@ export default function LoginButton() {
           <FaCircleCheck size={24} />
         </div>
       ) : (
-        <NavLink to="/login" className="flex items-center justify-center gap-5">
+        <NavLink to="/login" className="flex items-center justify-center gap-5 hover:bg-emerald-800 p-2 rounded-lg">
           <p>سجل الدخول</p>
           <IoLogInOutline size={24} />
         </NavLink>

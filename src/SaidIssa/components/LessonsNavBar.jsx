@@ -1,13 +1,12 @@
 import Lesson from "./Lesson";
 import { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { RxCross1 } from "react-icons/rx";
 
 // import { LoginContext } from "../login/LoginContext";
 // import { useContext } from "react";
 
 import LoginButton from "../login/LoginButton";
 import LessonNavBarButton from "./LessonNavBarButton";
+import BackToMain from "./BackToMain";
 
 export default function LessonsNavBar({ data, classId, classTitle }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +28,8 @@ export default function LessonsNavBar({ data, classId, classTitle }) {
             classId={classId}
           />
         ))}
-        <div className="absolute bottom-2 right-2 w-full p-10">
+        <div className="absolute bottom-0 right-0 w-full p-10 flex flex-col items-center justify-center gap-5 border-0 border-t-1 border-emerald-700">
+          <BackToMain />
           <LoginButton />
         </div>
       </div>
