@@ -3,14 +3,23 @@
 
 .rubik {
   font-family: Rubik !important;
+  direction: rtl;
 }
 
 .din {
   font-family: "DIN Round Pro" !important;
 }
 
-.memory-box {
+/* .memory-box {
   direction: rtl;
+} */
+
+/* .right-to-left {
+  direction: rtl;
+} */
+
+.gift-text {
+  background-color: #fae7d1;
 }
 
 body {
@@ -18,7 +27,6 @@ body {
   background-position: center;
   background-size: contain;
   position: relative;
-  background-repeat: repeat;
 }
 
 body::before {

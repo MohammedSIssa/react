@@ -10,7 +10,7 @@ export default function PageHeader({ text }) {
       >
         <IoIosArrowBack size={40} />
       </NavLink>
-      <h1 className="z-50 text-3xl text-rose-800">{text}</h1>
+      <h1 className="z-50 text-3xl text-rose-800 din">{text}</h1>
     </div>
   );
 }

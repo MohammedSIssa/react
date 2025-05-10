@@ -38,19 +38,25 @@ export default function Hero() {
   }
   function LoveMessage() {
     return (
-      <div className="w-full h-20 love-message m-2 rounded-4xl border-1 border-rose-400 z-50 px-7 flex items-center gap-5 text-3xl shadow-lg">
+      <NavLink
+        to="/letter"
+        className="w-full h-20 love-message m-2 rounded-4xl border-1 border-rose-300 z-50 px-7 flex items-center gap-5 text-3xl shadow-lg"
+      >
         <GiLoveLetter size={45} />
         Love Letter
-      </div>
+      </NavLink>
     );
   }
 
   function Surprise() {
     return (
-      <div className="surprise h-20 w-full m-2 border-1 border-rose-400 rounded-4xl z-50 px-7 flex items-center gap-5 text-3xl shadow-lg">
+      <NavLink
+        to="/surprise-gift"
+        className="surprise h-20 w-full m-2 border-1 border-rose-300 rounded-4xl z-50 px-7 flex items-center gap-5 text-3xl shadow-lg"
+      >
         <FaGift size={40} />
         Surprise Gift
-      </div>
+      </NavLink>
     );
   }
 }

@@ -1,7 +1,7 @@
 import PageHeader from "../components/PageHeader";
 import Memory from "../components/Memory";
 
-import { memories } from "./memories";
+import { memories } from "./memories-data";
 
 export default function Memories() {
   return (
@@ -10,7 +10,7 @@ export default function Memories() {
 
       <div className="w-full h-full flex flex-col z-50 gap-5">
         {memories.map((memory) => (
-          <Memory data={memory} key={memory.date} />
+          <Memory data={memory} key={memory.title} />
         ))}
       </div>
     </div>
