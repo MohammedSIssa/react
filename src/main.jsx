@@ -3,14 +3,16 @@ import "./index.css";
 import { createRoot } from "react-dom/client";
 // import ReactJobs from "./25-landing-pages/7-react-jobs/ReactJobs";
 // import NavApp from "./responsive-apps/app-with-nav/NavApp";
-import GiftRemastered from "./gift-remastered/Gift";
 // import SaidIssa from "./SaidIssa/SaidIssa";
+// import UseCallbackExample1 from "./useCallback/example1";
+import TodoListApp from "./todolist/TodoListApp";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <ReactJobs /> */}
     {/* <NavApp /> */}
-    <GiftRemastered />
     {/* <SaidIssa /> */}
+    {/* <UseCallbackExample1 /> */}
+    <TodoListApp />
   </StrictMode>
 );

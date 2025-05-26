@@ -1,9 +1,0 @@
-/* playwrite-au-sa */
-@font-face {
-	font-family: 'Playwrite';
-	font-style: normal;
-	font-weight: 100 400;
-	font-stretch: 100%;
-	src: local("Playwrite AU SA Regular"), local("PlaywriteAUSA-Regular"), url(playwrite-au-sa.woff2) format("woff2");
-}
-

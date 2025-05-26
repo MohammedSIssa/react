@@ -37,8 +37,6 @@ export default function SaidIssa() {
             path="/:classId/lesson"
             element={<RedirectToZeroZero />}
           ></Route>
-          {/* <Route path="/lesson/*" element={<TeachingCenter data={data} />}></Route> */}
-          {/* <Route path='/lesson' end element={<RedirectToZeroZero />}></Route> */}
         </Routes>
       </BrowserRouter>
     </LoginContext.Provider>

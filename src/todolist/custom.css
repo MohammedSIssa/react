@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-div {
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"] {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  accent-color: orange;
+}
