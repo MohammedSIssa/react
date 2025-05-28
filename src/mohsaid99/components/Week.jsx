@@ -2,6 +2,6 @@
 
 export default function Week({ data }) {
   return (
-    <div>{data}</div>
+    <div>{data.events}</div>
   )
 }
