@@ -1,6 +1,34 @@
-const defaultThumbnail = "https://i.imgur.com/jhwRHip.png"
-
-export let weeks = [
+export const weeks = [
+  {
+    id: 3,
+    meta: {
+      summary: "برنامج تودوليست",
+      year: 2025,
+      duration: "من 15 يناير لـ 21 يناير"
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "برمجت تطبيق To-Do List"
+      },
+      {
+        tag: "h3",
+        content: "التقنيات المستخدمة 📌"
+      },
+      {
+        tag: "h4",
+        content: "HTML, CSS, Javascript (ES Modules), Webpack"
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/tJ62dMa.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/w4iAX8i.png",
+      }
+    ]
+  },
   {
     id: 2,
     meta: {
@@ -16,8 +44,6 @@ export let weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/a4QOAMo.jpeg",
-        size: "normal",
-        thumbnail: defaultThumbnail
       },
       {
         tag: "h2",
@@ -26,8 +52,6 @@ export let weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/FKy14XK.jpeg",
-        size: "normal",
-        thumbnail: defaultThumbnail
       },
       {
         tag: "h2",
@@ -45,7 +69,6 @@ export let weeks = [
         tag: "img",
         content: "https://i.imgur.com/irrN5sh.jpeg",
         size: "small",
-        thumbnail: defaultThumbnail
       },
       {
         tag: "h1",
@@ -55,7 +78,6 @@ export let weeks = [
         tag: "img",
         content: "https://i.imgur.com/mFnu2wz.jpeg",
         size: "normal",
-        thumbnail: defaultThumbnail
       },
       {
         tag: "p",
@@ -65,7 +87,6 @@ export let weeks = [
         tag: "img",
         content: "https://i.imgur.com/nLRIDzc.jpeg",
         size: "small",
-        thumbnail: defaultThumbnail
       }
     ]
   },
@@ -85,7 +106,6 @@ export let weeks = [
         tag: "img",
         size: "normal",
         content: "https://i.imgur.com/PK0BXVx.jpeg",
-        thumbnail: defaultThumbnail
       },
       {
         tag: "p",
@@ -95,7 +115,6 @@ export let weeks = [
         tag: "img",
         size: "normal",
         content: "https://i.imgur.com/C3OM08R.jpeg",
-        thumbnail: defaultThumbnail
       },
       {
         tag: "p",

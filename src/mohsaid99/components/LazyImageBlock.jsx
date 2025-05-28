@@ -4,6 +4,9 @@ export default function LazyImageBlock({ event }) {
   const containerRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
+  const imgSize = event.size ? event.size : "normal"
+  const imgThumbnail = event.thumbnail ? event.thumbnail : "https://i.imgur.com/jhwRHip.png"
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -25,11 +28,11 @@ export default function LazyImageBlock({ event }) {
   }, []);
 
   const imageSizeClass =
-    event.size === "small"
+    imgSize === "small"
       ? "md:max-w-[300px]"
-      : event.size === "extra-small"
+      : imgSize === "extra-small"
       ? "md:max-w-[250px]"
-      : event.size === "normal"
+      : imgSize === "normal"
       ? "md:w-full"
       : "";
 
@@ -38,7 +41,7 @@ export default function LazyImageBlock({ event }) {
       ref={containerRef}
       className="thumbnail mb-10"
       style={{
-        backgroundImage: isVisible ? `url(${event.thumbnail})` : "none",
+        backgroundImage: isVisible ? `url(${imgThumbnail})` : "none",
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "200px", // لمنع collapse
@@ -47,7 +50,7 @@ export default function LazyImageBlock({ event }) {
       {isVisible && (
         <img
           src={event.content}
-          className={`${event.size} ${imageSizeClass}`}
+          className={`${imgSize} ${imageSizeClass}`}
           alt=""
         />
       )}
