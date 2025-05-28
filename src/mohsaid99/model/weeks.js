@@ -1,5 +1,3 @@
-export const weeks = [
-  "1", "2", "3"
-]
+export const weeks = ["", "", "", "", ""];
 
-export const latestWeek = weeks.length
+export const latestWeek = weeks.length;

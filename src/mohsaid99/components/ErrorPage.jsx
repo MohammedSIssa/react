@@ -6,7 +6,7 @@ export default function ErrorPage() {
       <h1 className="text-2xl text-center md:text-4xl font-bold">
         هذه الصفحة غير موجودة 🚫
       </h1>
-      <NavLink className="text-violet-300 hover:underline" to='/'>إضغط هنا للرجوع للصفحة الرئيسية</NavLink>
+      <NavLink className="text-violet-300 hover:underline" to='/'>الصفحة الرئيسية</NavLink>
     </div>
   )
 }

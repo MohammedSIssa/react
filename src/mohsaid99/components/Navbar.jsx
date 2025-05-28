@@ -15,7 +15,10 @@ const Navbar = () => {
   const isWeeksActive = location.pathname.startsWith("/weeks");
   const isGoalsActive = location.pathname.startsWith("/goals");
   return (
-    <div className="flex h-15 gap-10 w-full border-0 border-b-1 md:border-0 md:px-15 py-5 md:py-10 items-center justify-between">
+    <div
+      className="flex h-15 gap-10 w-full border-0 border-b-1 md:border-0 md:px-15 py-5 md:py-10 items-center justify-between"
+      style={{ borderColor: "var(--story-border-color)" }}
+    >
       <div className="flex gap-10 px-10 md:px-0">
         <NavLink to={`/weeks/${latestWeek}`}>
           {isWeeksActive ? (

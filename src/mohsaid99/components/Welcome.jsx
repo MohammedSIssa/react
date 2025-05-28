@@ -23,8 +23,20 @@ function Welcome() {
         الأهداف والأسابيع
       </p>
       <div className="flex gap-5 md:gap-10 py-10">
-        <NavLink to={`/weeks/${latestWeek}`} className="p-2 px-5 rounded-xl text-lg md:text-2xl md:p-8 md:px-18" style={{backgroundColor: 'var(--story-border-color)'}}>الأسابيع</NavLink>
-        <NavLink to={`/goals/${latestGoal}`} className="border-1 p-2 px-5 rounded-xl text-lg md:text-2xl md:p-8 md:px-18" style={{borderColor: 'var(--story-border-color)'}}>الأهداف</NavLink>
+        <NavLink
+          to={`/weeks/${latestWeek}`}
+          className="p-2 px-5 rounded-xl text-lg md:text-2xl md:p-8 md:px-18"
+          style={{ backgroundColor: "var(--story-border-color)" }}
+        >
+          الأسابيع
+        </NavLink>
+        <NavLink
+          to={`/goals/${latestGoal}`}
+          className="border-1 p-2 px-5 rounded-xl text-lg md:text-2xl md:p-8 md:px-18"
+          style={{ borderColor: "var(--story-border-color)" }}
+        >
+          الأهداف
+        </NavLink>
       </div>
     </div>
   );

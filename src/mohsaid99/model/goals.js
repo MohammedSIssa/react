@@ -1,3 +1,3 @@
-export const goals = ["1", "2", "3", "4"];
+export const goals = ["","","","",""];
 
 export const latestGoal = goals.length;
