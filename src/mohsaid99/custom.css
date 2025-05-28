@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap");
+/* The page content font family */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Week counter font family */
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+/* Logo font family */
+
+:root {
+  --bg-color: #0e1217;
+  --story-bg-color: #1c1f26;
+  --font-color: #dadada;
+  --story-border-color: #424857;
+  --story-count-color: #676c7a;
+  --logo-font: "Dancing Script", system-ui;
+  --font: "Playpen Sans Arabic", system-ui;
+  --story-count-font: Montserrat, system-ui;
+}
+
+* {
+  direction: rtl; 
+  /* Mainly arabic content */
+
+  text-wrap: pretty !important;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: var(--font);
+}
+
+.stories {
+  border-color: var(--story-border-color) !important;
+}
+
+
+.logo {
+  font-family: var(--logo-font);
+}
+
+a {
+  transition: all 200ms ease-in-out;
+}
+
+a:hover {
+  filter: brightness(1.125);
+}
