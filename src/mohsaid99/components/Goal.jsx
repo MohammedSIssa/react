@@ -1,6 +1,6 @@
 
 export default function Goal({ data }) {
   return (
-    <div>{data}</div>
+    <div>{data.events}</div>
   )
 }

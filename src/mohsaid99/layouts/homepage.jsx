@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import MainContent from '../components/MainContent'
+import ErrorPage from '../components/ErrorPage'
 
 import { Routes, Route } from 'react-router-dom'
 
@@ -9,6 +10,7 @@ export default function HomePage() {
       <Navbar />
       <Routes>
         <Route path='/:type/:id' element={<MainContent />}></Route>
+        <Route path='*' element={<ErrorPage />}></Route>
       </Routes>
     </div>
   )

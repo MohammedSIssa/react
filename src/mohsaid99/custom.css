@@ -48,6 +48,11 @@ a:hover {
   filter: brightness(1.125);
 }
 
+.story-count,
+.story-year {
+  font-family: var(--story-count-font);
+}
+
 /* Scrollbar styling start */
 
 ::-webkit-scrollbar {
