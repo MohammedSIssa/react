@@ -4,15 +4,17 @@ import Week from "./Week";
 import Goal from "./Goal";
 import ErrorPage from "./ErrorPage";
 
-// import { weeks, latestWeek } from "../model/weeks";
-// import { goals, latestGoal } from "../model/goals";
-
 import { dataCenter } from "../model/center";
 
 const MainContent = () => {
   const { weeks, latestWeek, goals, latestGoal } = dataCenter;
   const { type, id } = useParams();
-  const data = type === "weeks" ? weeks[+id -1] : type === "goals" ? goals[+id -1]: null;
+  const data =
+    type === "weeks"
+      ? weeks[+id - 1]
+      : type === "goals"
+      ? goals[+id - 1]
+      : null;
 
   if (type === "weeks" && +id > latestWeek) {
     return <ErrorPage />;
