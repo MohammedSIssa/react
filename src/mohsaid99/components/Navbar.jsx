@@ -6,13 +6,12 @@ import { BsCalendar2Minus } from "react-icons/bs"; // inactive ver
 import { FiTarget } from "react-icons/fi"; // inactive ver
 import { TbTargetArrow } from "react-icons/tb"; // active ver
 
-import { latestGoal } from "../model/goals";
-import { latestWeek } from "../model/weeks";
-
+import { dataCenter } from "../model/center";
 import Logo from "./Logo";
 
 const Navbar = () => {
   const location = useLocation();
+  const { latestGoal, latestWeek } = dataCenter;
   const isWeeksActive = location.pathname.startsWith("/weeks");
   const isGoalsActive = location.pathname.startsWith("/goals");
   return (
