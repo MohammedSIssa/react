@@ -6,6 +6,7 @@ export default function LazyImageBlock({ event }) {
 
   const imgSize = event.size ? event.size : "normal"
   const imgThumbnail = event.thumbnail ? event.thumbnail : "https://i.imgur.com/jhwRHip.png"
+  const isLightImage = event.isLightImage === true ? true : false;
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -37,7 +38,7 @@ export default function LazyImageBlock({ event }) {
   return (
     <div
       ref={containerRef}
-      className="thumbnail mb-10"
+      className={"thumbnail mb-10"}
       style={{
         backgroundImage: isVisible ? `url(${imgThumbnail})` : "none",
         backgroundSize: "cover",
@@ -48,7 +49,7 @@ export default function LazyImageBlock({ event }) {
       {isVisible && (
         <img
           src={event.content}
-          className={`${imgSize} ${imageSizeClass}`}
+          className={`${imgSize} ${imageSizeClass} ${isLightImage && "brightness-75"}`}
           alt=""
         />
       )}

@@ -4,54 +4,57 @@ export const weeks = [
     meta: {
       summary: "حل كمان أسئلة برمجة، مشاريع عالخفيف",
       duration: "من 29 يناير لـ 4 فبراير",
-      year: 2025
+      year: 2025,
     },
     events: [
       {
         tag: "h1",
-        content: "مشروع جديد: Linked Lists"
+        content: "مشروع جديد: Linked Lists",
       },
       {
         tag: "p",
-        content: "لينكد ليست؟ موضوع أخذته بالجامعة وفاهمه من زمان، عشان هيك خلصته بسرعة"
+        content:
+          "لينكد ليست؟ موضوع أخذته بالجامعة وفاهمه من زمان، عشان هيك خلصته بسرعة",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/zdpT84t.png"
+        isLightImage: true,
+        content: "https://i.imgur.com/zdpT84t.png",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/XixYDKs.png"
+        isLightImage: true,
+        content: "https://i.imgur.com/XixYDKs.png",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/Ef9w84c.png"
+        content: "https://i.imgur.com/Ef9w84c.png",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/ka2g2Vc.png"
+        content: "https://i.imgur.com/ka2g2Vc.png",
       },
       {
         tag: "h1",
-        content: "خطوة جديدة: تعلمت كيف أسوي اختبارات تلقائية للكود 🛠"
+        content: "خطوة جديدة: تعلمت كيف أسوي اختبارات تلقائية للكود 🛠",
       },
       {
         tag: "p",
-        content: "الهدف؟ كل تعديل على الكود بيخليني متطمن انه مابيخرب اشي"
+        content: "الهدف؟ كل تعديل على الكود بيخليني متطمن انه مابيخرب اشي",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/W9siGTo.png"
+        content: "https://i.imgur.com/W9siGTo.png",
       },
       {
         tag: "h1",
-        content: "🤓 Progress on Project Euler"
+        content: "🤓 Progress on Project Euler",
       },
       {
         tag: "p",
-        content: "حليت الأسئلة 17، 18، 19، 20"
-      }
-    ]
+        content: "حليت الأسئلة 17، 18، 19، 20",
+      },
+    ],
   },
   {
     id: 4,
@@ -138,17 +141,17 @@ export const weeks = [
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/nLSJJ1e.png"
+        content: "https://i.imgur.com/nLSJJ1e.png",
       },
       {
         tag: "h1",
-        content: "مشوار غزة الأول"
+        content: "مشوار غزة الأول",
       },
       {
         tag: "iframe",
         type: "shorts",
-        videoId: "bL3z0ifa80Y"
-      }
+        videoId: "bL3z0ifa80Y",
+      },
     ],
   },
   {
@@ -172,10 +175,12 @@ export const weeks = [
         content: "HTML, CSS, Javascript (ES Modules), Webpack",
       },
       {
+        isLightImage: true,
         tag: "img",
         content: "https://i.imgur.com/tJ62dMa.png",
       },
       {
+        isLightImage: true,
         tag: "img",
         content: "https://i.imgur.com/w4iAX8i.png",
       },
@@ -193,10 +198,12 @@ export const weeks = [
           "التحديثات الجاية: إضافة البرمجة عشان يشتغل كل المطلوب من المشروع 🛠",
       },
       {
+        isLightImage: true,
         tag: "img",
         content: "https://i.imgur.com/DpJH25o.png",
       },
       {
+        isLightImage: true,
         tag: "img",
         content: "https://i.imgur.com/QG2bSCf.png",
       },
@@ -205,10 +212,12 @@ export const weeks = [
         content: "بعد يومين شغل، التصميم والبرمجة صاروا جاهزين ⏳",
       },
       {
+        isLightImage: true,
         tag: "img",
         content: "https://i.imgur.com/kBNLBC3.png",
       },
       {
+        isLightImage: true,
         tag: "img",
         content: "https://i.imgur.com/lAti3Mb.png",
       },
@@ -278,6 +287,7 @@ export const weeks = [
         content: "اليوم 14 يناير: كملت 142 يوم متواصل في تعلم اللغة العبرية 🔥",
       },
       {
+        isLightImage: true,
         tag: "img",
         content: "https://i.imgur.com/nLRIDzc.jpeg",
         size: "small",
@@ -297,8 +307,8 @@ export const weeks = [
         content: "بديت بحل أسئلة موقع بروجكت أولر",
       },
       {
+        isLightImage: true,
         tag: "img",
-        size: "normal",
         content: "https://i.imgur.com/PK0BXVx.jpeg",
       },
       {
@@ -307,7 +317,6 @@ export const weeks = [
       },
       {
         tag: "img",
-        size: "normal",
         content: "https://i.imgur.com/C3OM08R.jpeg",
       },
       {
