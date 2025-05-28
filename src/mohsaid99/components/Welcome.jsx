@@ -11,14 +11,14 @@ function Welcome() {
       style={{ backgroundColor: "var(--bg-color)", color: "var(--font-color)" }}
     >
       <h1 className="text-5xl md:text-6xl mb-15 font-bold">مرحبا 👋🏻</h1>
-      <h1 className="text-lg md:text-2xl lg:text-2xl mb-5 md:font-light">
+      <h1 className="text-lg md:text-2xl lg:text-2xl mb-5">
         أنا محمد، وهذا مكاني الخاص لتوثيق رحلتي 📑
       </h1>
-      <p className="text-lg md:text-2xl md:font-light mb-10 md:mb-20 lg:mb-30">
+      <p className="text-lg md:text-2xl mb-10 md:mb-20 lg:mb-30">
         كل أسبوع أشارك هنا تجاربي، شو قاعد بتعلم، أهدافي السنوية، وشوية صور من
         الحياة
       </p>
-      <p className="text-lg md:text-2xl md:font-light mb-5">
+      <p className="text-lg md:text-2xl mb-5">
         أنا الآن أتعلم {whatIamLearningCurrently}، بتقدر تتابع تقدمي في صفحة
         الأهداف والأسابيع
       </p>

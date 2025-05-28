@@ -1,4 +1,5 @@
 import WeekList from "./WeekList";
+import LazyImageBlock from "./LazyImageBlock";
 
 const WeekSection = ({ event }) => {
   return (
@@ -20,31 +21,28 @@ const WeekSection = ({ event }) => {
         </h3>
       )}
       {event.tag === "h4" && (
-        <h4 className="text-md px-5 text-center md:text-lg lg:text-xl">{event.content}</h4>
+        <h4 className="text-md px-5 text-center md:text-lg lg:text-xl">
+          {event.content}
+        </h4>
       )}
       {event.tag === "h5" && (
-        <h5 className="text-sm px-5 text-center md:text-md lg:text-lg">{event.content}</h5>
+        <h5 className="text-sm px-5 text-center md:text-md lg:text-lg">
+          {event.content}
+        </h5>
       )}
 
       {event.tag === "h6" && (
-        <h6 className="text-xs px-5 text-center md:text-sm lg:text-md">{event.content}</h6>
+        <h6 className="text-xs px-5 text-center md:text-sm lg:text-md">
+          {event.content}
+        </h6>
       )}
 
       {event.tag === "p" && (
-        <p className="text-lg px-5 max-w-[700px] text-center md:text-xl">{event.content}</p>
+        <p className="text-lg px-5 max-w-[700px] text-center md:text-xl">
+          {event.content}
+        </p>
       )}
-      {event.tag === "img" && (
-        <div
-          className="thumbnail"
-          style={{
-            backgroundImage: `url(${event.thumbnail})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          <img src={event.content} className={`${event.size} ${event.size === "small" ? "md:max-w-[300px]" : event.size === "extra-small" ? "md:max-w-[250px]" : ""}`} alt="" loading="lazy" />
-        </div>
-      )}
+      {event.tag === "img" && <LazyImageBlock event={event} />}
 
       {event.tag === "ul" && <WeekList list={event.content} />}
     </>

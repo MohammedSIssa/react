@@ -28,6 +28,7 @@
 body {
   background-color: var(--bg-color);
   font-family: var(--font);
+  overflow-x: hidden;
 }
 
 .stories {
