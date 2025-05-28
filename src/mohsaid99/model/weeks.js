@@ -1,39 +1,51 @@
+const defaultThumbnail = "https://i.imgur.com/jhwRHip.png"
+
 export let weeks = [
   {
     id: 1,
     meta: {
-      summary: "ملخص الأسبوع الأول",
+      summary: "حل أسئلة برمجة",
       year: 2025,
-      duration: "من 28 مايو لـ 3 أبريل",
+      duration: "من 1 يناير لـ 7 يناير",
     },
     events: [
       {
         tag: "h1",
-        content: "الأسبوع الأول",
+        content: "بديت بحل أسئلة موقع بروجكت أولر",
       },
       {
         tag: "img",
-        size: "extra-small, small, normal, long",
-        content: "https://i.imgur.com/uxRtuBm.png",
-        thumbnail: "https://i.imgur.com/3GM3Yod.jpg",
+        size: "normal",
+        content: "https://i.imgur.com/PK0BXVx.jpeg",
+        thumbnail: defaultThumbnail
       },
       {
         tag: "p",
-        content: "فقرة عشوائية",
+        content: "حليت 16 سؤال من أصل 25 مقرر أحلهم خلال السنة",
       },
       {
-        tag: "ul",
-        content: [
-          {
-            title: "Google",
-            link: "https://www.google.com",
-          },
-          {
-            title: "Google",
-            link: "https://www.google.com",
-          },
-        ],
+        tag: "img",
+        size: "normal",
+        content: "https://i.imgur.com/C3OM08R.jpeg",
+        thumbnail: defaultThumbnail
       },
+      {
+        tag: "p",
+        content: "هاد الأسئلة فكرتها تخليك تستخدم الرياضات مع البرمجة، الأهم انك تفكر بالحل الأسرع والأخف، بتخليك تحك راسك وتجيب حلول بدها تفكير طويل"
+      }
+      // {
+      //   tag: "ul",
+      //   content: [
+      //     {
+      //       title: "Google",
+      //       link: "https://www.google.com",
+      //     },
+      //     {
+      //       title: "Google",
+      //       link: "https://www.google.com",
+      //     },
+      //   ],
+      // },
     ],
   },
 ];
