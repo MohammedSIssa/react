@@ -1,6 +1,6 @@
 
 export default function Goal({ data }) {
   return (
-    <div>{data.events}</div>
+    <div className="flex flex-col p-5 md:p-20 items-center">{data.events}</div>
   )
 }

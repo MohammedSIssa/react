@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Story({ data, id, type }) {
   const defaultClassName =
     "w-[250px] min-w-[250px] h-full border-1 rounded-xl p-3 px-4 relative";
-  const activeClassName = "border-dashed border-2";
+  const activeClassName = "border-1 brightness-140 border-dashed border-2";
   return (
     <NavLink
       to={`/${type}/${id}`}

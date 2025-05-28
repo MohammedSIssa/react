@@ -8,7 +8,8 @@ export default function MohSaid99() {
   return (
     <BrowserRouter basename="/mohsaid99">
         <Routes>
-          <Route path="/" index element={<Welcome />} />
+          <Route path="/" element={<Welcome />} />
+          <Route index element={<Welcome />}></Route>
           <Route path="/*" element={<HomePage />} />
         </Routes>
     </BrowserRouter>

@@ -45,12 +45,33 @@ a {
 }
 
 a:hover {
-  filter: brightness(1.125);
+  filter: brightness(1.40);
+}
+
+.stories a.active {
+  filter: brightness(1.5);
+}
+
+.week-list {
+  direction: ltr;
+}
+
+.week-list a {
+  color: violet;
 }
 
 .story-count,
 .story-year {
   font-family: var(--story-count-font);
+}
+
+.thumbnail {
+  background-size: cover;
+  background-position: center;
+}
+
+img:not(.long) {
+  max-height: calc(100dvh - 200px);
 }
 
 /* Scrollbar styling start */

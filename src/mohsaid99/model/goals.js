@@ -1,4 +1,4 @@
-export const goals = [
+export let goals = [
   {
     id: 1,
     meta: {
