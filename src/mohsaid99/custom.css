@@ -75,6 +75,20 @@ img:not(.long) {
   max-height: calc(100dvh - 200px);
 }
 
+iframe {
+  pointer-events: none;
+  cursor: none;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+iframe.shorts {
+  aspect-ratio: 9 / 16 !important;
+  height: calc(100dvh - 200px);
+  width: auto !important;
+}
+
 /* Scrollbar styling start */
 
 ::-webkit-scrollbar {

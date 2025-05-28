@@ -1,5 +1,6 @@
 import WeekList from "./WeekList";
 import LazyImageBlock from "./LazyImageBlock";
+import YouTubePlayer from "./YouTubePlayer";
 
 const WeekSection = ({ event }) => {
   return (
@@ -45,6 +46,8 @@ const WeekSection = ({ event }) => {
       {event.tag === "img" && <LazyImageBlock event={event} />}
 
       {event.tag === "ul" && <WeekList list={event.content} />}
+
+      {event.tag === "iframe" && <YouTubePlayer type={event.type} videoId={event.videoId} />}
     </>
   );
 };

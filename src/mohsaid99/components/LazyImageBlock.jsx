@@ -32,8 +32,6 @@ export default function LazyImageBlock({ event }) {
       ? "md:max-w-[300px]"
       : imgSize === "extra-small"
       ? "md:max-w-[250px]"
-      : imgSize === "normal"
-      ? "md:w-full"
       : "";
 
   return (
