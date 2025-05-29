@@ -1,5 +1,374 @@
 export const weeks = [
   {
+    id: 16,
+    meta: {
+      duration: "من 16 أبريل لـ 22 أبريل",
+      summary: "مشروع رياكت الثالث",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "Fetching Data in React",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/hGxKEJb.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Squy6Lc.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "إنجاز جديد: خلصت أخر مشروع بكورس الرياكت 🎉⚡",
+      },
+      {
+        tag: "h3",
+        content: "Shopping Cart | سلة تسوق 🛒",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "عرض الموقع 👀",
+            link: "https://mohammedsissa.github.io/shopping-cart/",
+          },
+          {
+            title: "عرض الكود 🔎",
+            link: "https://github.com/MohammedSIssa/shopping-card-react-code",
+          },
+        ],
+      },
+      {
+        tag: "h3",
+        content: "Tech Stack: React + CSS",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/7dFn8R9.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/oFbq0hZ.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/hFMMjXI.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/ubsal6j.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/pso7wxS.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/STDqaUD.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "تعملت كيف أستخدم useContext في رياكت",
+      },
+      {
+        tag: "h3",
+        content: "بشرحه عالسريع",
+      },
+      {
+        tag: "p",
+        content:
+          "هلقيت عندي بمشروع الرياكت غالبا بيبقى في بيانات بدي اوصلها من (الجد) للحفيد، بس الطريق في النص بيبقى عندي (أب) و (ابن) وكلهم لازم يمررو المعلومات حتى توصل للحفيد، هاد بنسميه بالرياكت (prop drilling ) يعني بمرر البيانات من اب لابن لابن لابن الخ، هان بييجي الuseContext زي خط التلفون مباشرة من الجد للحفيد بدون م تمر كل العيلة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/fHYjAKh.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/w1S7Z3f.png",
+      },
+      {
+        tag: "h1",
+        content: "وكمان تعلمت useReducer",
+      },
+      {
+        tag: "h3",
+        content: "برضو بشرحه",
+      },
+      {
+        tag: "p",
+        content:
+          "لو عندك state معقد شوي، مثلا تطبيق ToDo أو Shopping Cart وصار عندك كتير اكشنز زي (إضافة، حدف، تعديل، الخ) لو هستخدم useState لحالها هدوخ، وهان بييجي الuseReducer وبتشتغل زي عقل صغير بيستقبل أوامر وبيقرر شو يعمل",
+      },
+      {
+        tag: "h3",
+        content: "الها مكونين اتنين، الأول function reducer",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/njULWrC.jpeg",
+      },
+      {
+        tag: "p",
+        content:
+          "بتستقبل state الحالي و action وبترجع state جديدة حسب ال type تاع ال action",
+      },
+      {
+        tag: "h3",
+        content: "المكون الثاني: useReducer",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/LElVtx8.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "استخدام useContext & useReducer مع بعض",
+      },
+      {
+        tag: "p",
+        content:
+          "لو عندك برنامج كبير، بتستخدم ال useReducer عشان اجمع منطق تحديث البيانات، وبغلفه جوات useContext عشان اوزع ال state وال dispatch على باقي المكونات",
+      },
+      {
+        tag: "h3",
+        content: "مشروع عالسريع",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/1cMUDPe.png",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/mkw2SSU.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/UUVLcp1.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/JgAvRGb.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/fOoKrp1.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "صور من الحياة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/TpMfDmJ.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/HXTJjhy.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Xgqg8im.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/SkAdsGj.jpg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/2vQAVoA.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/IuBhYf0.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/q8YcoX0.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "أسعار السوق 🛒🔥",
+      },
+      {
+        tag: "p",
+        content:
+          "راس البصل ب 7 شيكل (2 دولار) وفش فواكه بالسوق، فش غير بسكوت الشاي والحبة ب5 شيكل، كيلو البندورة 20 شيكل، فش غير فلفل اخضر وخيار بالسوق",
+      },
+      {
+        tag: "h3",
+        content: "الوضع مع قمر بستي",
+      },
+      {
+        tag: "p",
+        content: "وصلت اخر 6 علب لحمة، وضايل جبنة متلتات، بديت اقلق 😄",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "الأشياء اللي تعلمت عنها الأسبوع هاد",
+      },
+      {
+        tag: "p",
+        content: " - Fetching Data in React - ",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "The Odin Project Lesson",
+            link: "https://www.theodinproject.com/lessons/node-path-react-new-styling-react-applications",
+          },
+          {
+            title: "Modern API data-fetching methods in React",
+            link: "https://blog.logrocket.com/modern-api-data-fetching-methods-react/",
+          },
+          {
+            title: "How to fetch data in React with performance in mind",
+            link: "https://www.developerway.com/posts/how-to-fetch-data-in-react",
+          },
+        ],
+      },
+      {
+        tag: "p",
+        content: "مكتبات تصميم جاهزة للرياكت",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "CSS in JS",
+            link: "https://styled-components.com/",
+          },
+          {
+            title: "TailwindCSS",
+            link: "https://tailwindcss.com/",
+          },
+          {
+            title: "Chakra UI",
+            link: "https://chakra-ui.com/",
+          },
+          {
+            title: "Radix UI",
+            link: "https://www.radix-ui.com/",
+          },
+          {
+            title: "lucide-react",
+            link: "https://lucide.dev/guide/packages/lucide-react",
+          },
+          {
+            title: "react-icons",
+            link: "https://react-icons.github.io/react-icons/",
+          },
+        ],
+      },
+      {
+        tag: "p",
+        content: "- Articles I read -",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "Understanding CORS",
+            link: "https://rbika.com/blog/understanding-cors",
+          },
+          {
+            title:
+              "The mystery of React Elements, children, parents, and re-renders",
+            link: "https://www.developerway.com/posts/react-elements-children-parents",
+          },
+          {
+            title: "How to solve requests waterfall",
+            link: "https://www.developerway.com/posts/how-to-fetch-data-in-react#part7",
+          },
+          {
+            title: "How to Style React Components Using CSS Modules",
+            link: "https://www.makeuseof.com/react-components-css-modules-style/",
+          },
+          {
+            title: "React Component Composition",
+            link: "https://www.robinwieruch.de/react-component-composition/",
+          },
+        ],
+      },
+      {
+        tag: "p",
+        content: "- Context API -"
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "The Odin Project Lesson",
+            link: "https://www.theodinproject.com/lessons/node-path-react-new-managing-state-with-the-context-api#implementing-context-api"
+          },
+          {
+            title: "React.dev Docs",
+            link: "https://react.dev/reference/react/useContext"
+          },
+          {
+            title: "React.dev Examples",
+            link: "https://react.dev/learn/passing-data-deeply-with-context"
+          }
+        ]
+      },
+      {
+        tag: "p",
+        content: "- useReducer -"
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "The Odin Project Lesson",
+            link: "https://www.theodinproject.com/lessons/node-path-react-new-reducing-state"
+          },
+          {
+            title: "React.dev Docs",
+            link: "https://react.dev/learn/extracting-state-logic-into-a-reducer"
+          },
+          {
+            title: "The React useReducer Hook",
+            link: "https://www.telerik.com/blogs/react-usereducer-hook"
+          }
+        ]
+      },
+      {
+        tag: "hr"
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/clknE8q.png"
+      }
+    ],
+  },
+  {
     id: 15,
     meta: {
       duration: "من 9 أبريل لـ 15 أبريل",
