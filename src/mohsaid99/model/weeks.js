@@ -39,7 +39,7 @@ export const weeks = [
         content: "https://i.imgur.com/veWwRQj.jpeg",
       },
       {
-        tag: "hr"
+        tag: "hr",
       },
       {
         tag: "h1",
@@ -64,40 +64,250 @@ export const weeks = [
         content: "https://i.imgur.com/QASpXyV.jpeg",
       },
       {
-        tag: "hr"
+        tag: "hr",
       },
       {
         tag: "h1",
-        content: "عملت تصميم لبور بانك لابتوب، بيجي يوم أسويه 🙂"
+        content: "عملت تصميم لبور بانك لابتوب، بيجي يوم أسويه 🙂",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/YDEichW.jpeg"
+        content: "https://i.imgur.com/YDEichW.jpeg",
       },
       {
-        tag: "hr"
+        tag: "hr",
       },
       {
         tag: "h1",
-        content: "إنجاز جديد: خلصت الكورس الثالث في دورة Full-Stack 💫"
+        content: "إنجاز جديد: خلصت الكورس الثالث في دورة Full-Stack 💫",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/WSNANmX.jpeg"
+        content: "https://i.imgur.com/WSNANmX.jpeg",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/WkiEpbG.jpeg"
+        content: "https://i.imgur.com/WkiEpbG.jpeg",
       },
       {
         tag: "h1",
-        content: "المشروع الأخير: صفحة بورتفوليو تستجيب لكل أحجام الشاشات"
+        content: "المشروع الأخير: صفحة بورتفوليو تستجيب لكل أحجام الشاشات",
       },
       {
         tag: "iframe",
         videoId: "-d3HiNIH1gU",
-        type: "desktop"
-      }
+        type: "desktop",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "17/3/2025 الساعة 6 صباحا",
+      },
+      {
+        tag: "h3",
+        content: "مشوار غزة الثالث",
+      },
+      {
+        tag: "p",
+        content: "الهدف من الطلعة: نجيب أغراض من البيت في غزة",
+      },
+      {
+        tag: "p",
+        content: "*كل أغراضنا في غزة، احنا نزحنا بدون اشي*",
+      },
+      {
+        tag: "h3",
+        content: "بديت أوثق من الساعة 6:49 واحنا ماشيين باتجاه شارع الرشيد",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/KSzlTAY.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/zV43hRF.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/tCzGVr1.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/zeWYIi7.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/SxhRzx3.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/IRwunkL.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "ركبنا تكتك لعند تلة النويري",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/TnPMZ5C.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content:
+          "نزلنا عند تلة النويري، وركبنا تكتك تاني لعند دوار النابلسي بغزة",
+      },
+      {
+        tag: "p",
+        content: "مشينا من دوار النابلسي للبيت، بمفترق المغربي",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/9iMKfvx.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/YlOzHNv.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/AeXkIp9.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/zmlJEko.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/gn84Psg.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "وصلنا البيت الساعة 8:45AM",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/9sILJHr.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/sDuPRr1.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "بنبلش شغل ولملمة الغراض اللازمة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/wHo6jC3.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/uQKgmwY.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "لقينا صورة لدارنا بالشوكة 🥲",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Koz8ckV.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "h1",
+        content: "After AI",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/SORSDnw.jpeg",
+        thumbnail: "https://i.imgur.com/RV2fiKl.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "خلصنا نقل على كارة بموعد أذان الظهر",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/PcICLSx.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: " تحركت انا وابوي على شقة اختي ايمان",
+      },
+      {
+        tag: "img",
+        isLightImage: true,
+        content: "https://i.imgur.com/KyqNKU5.jpeg",
+      },
+      {
+        tag: "img",
+        isLightImage: true,
+        content: "https://i.imgur.com/Tw1mlqn.jpeg",
+      },
+      {
+        tag: "img",
+        isLightImage: true,
+        content: "https://i.imgur.com/7toUl50.jpeg",
+      },
+      {
+        tag: "img",
+        isLightImage: true,
+        content: "https://i.imgur.com/vKBjLcm.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "اسبوع فاصل نت أغلبه",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/IiQfxn8.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/jT1aqwW.jpeg",
+      },
     ],
   },
   {
