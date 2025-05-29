@@ -47,9 +47,16 @@ const WeekSection = ({ event }) => {
 
       {event.tag === "ul" && <WeekList list={event.content} />}
 
-      {event.tag === "iframe" && <YouTubePlayer type={event.type} videoId={event.videoId} />}
+      {event.tag === "iframe" && (
+        <YouTubePlayer type={event.type} videoId={event.videoId} />
+      )}
 
-      {event.tag === "hr" && <hr className="border-1 w-full mb-15" style={{borderColor: 'var(--story-border-color)'}} />}
+      {event.tag === "hr" && (
+        <hr
+          className="border-1 w-full mb-15"
+          style={{ borderColor: "var(--story-border-color)" }}
+        />
+      )}
     </>
   );
 };

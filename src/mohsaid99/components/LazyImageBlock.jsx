@@ -43,7 +43,7 @@ export default function LazyImageBlock({ event }) {
         backgroundImage: isVisible ? `url(${imgThumbnail})` : "none",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        minHeight: "200px", // لمنع collapse
+        minHeight: "120px", // لمنع collapse
       }}
     >
       {isVisible && (
