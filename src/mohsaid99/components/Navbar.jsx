@@ -18,7 +18,7 @@ const Navbar = () => {
   const isGoalsActive = location.pathname.startsWith("/goals");
   return (
     <div
-      className="fixed bottom-0 z-50 md:top-0 flex h-10 w-full border-0 border-t-1 md:border-b-1 md:px-15 py-5 md:py-8 items-center justify-center md:justify-between"
+      className="nav-bar bg-zinc-900 fixed bottom-0 z-50 md:top-0 flex h-12 w-full border-0 border-t-1 md:border-0 md:px-15 py-5 md:py-8 items-center justify-center md:justify-between"
       style={{ borderColor: "var(--story-border-color)", backgroundColor: 'var(--bg-color)' }}
     >
       <div className="flex md:gap-10 items-center justify-around md:justify-start w-full px-10 md:px-0">
