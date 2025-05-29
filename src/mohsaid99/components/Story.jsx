@@ -1,9 +1,11 @@
 import { NavLink } from "react-router-dom";
 
-export default function Story({ data, id, type }) {
-  const defaultClassName =
-    "w-[250px] min-w-[250px] h-full border-1 rounded-xl p-3 px-4 relative";
-  const activeClassName = "border-1 brightness-140 border-dashed border-2";
+export default function Story({ data, id, type, isSpecial }) {
+  let goldStory = isSpecial != null && Boolean(isSpecial);
+  const defaultClassName = `w-[250px] min-w-[250px] h-full border-2 rounded-xl p-3 px-4 relative ${
+    goldStory ? "shadow-yellow-900 shadow-xl" : ""
+  }`;
+  const activeClassName = `brightness-140 ${goldStory ? "": "border-dashed"} border-2`;
   return (
     <NavLink
       to={`/${type}/${id}`}
@@ -11,8 +13,14 @@ export default function Story({ data, id, type }) {
         isActive ? defaultClassName + " " + activeClassName : defaultClassName
       }
       style={{
-        backgroundColor: "var(--story-bg-color)",
-        borderColor: "var(--story-border-color)",
+        backgroundColor: `${
+          goldStory ? "var(--bg-color)" : "var(--story-bg-color)"
+        }`,
+        borderColor: `${
+          goldStory
+            ? "var(--gold-story-border-color)"
+            : "var(--story-count-color)"
+        }`,
       }}
     >
       <p className="font-bold text-xl mb-1">{data.duration}</p>

@@ -1,6 +1,6 @@
 /* transitions.css */
 .fade-wrapper {
-  transition: all 1s ease;
+  transition: transform 1s ease, opacity 0.5s ease;
 }
 
 .fadeIn {

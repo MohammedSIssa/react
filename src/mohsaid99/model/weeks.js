@@ -1,9 +1,10 @@
 export const weeks = [
   {
     id: 22,
+    isSpecial: true,
     meta: {
       duration: "من 28 مايو لـ 3 يونيو",
-      summary: "🔴",
+      summary: "نقل الموقع لبيئة رياكت ⭐",
       year: 2025,
     },
     events: [
@@ -25,49 +26,101 @@ export const weeks = [
         ],
       },
       {
-        tag: "h1",
-        content: "أكبر تغيير في تاريخ الموقع 😄🔥"
+        tag: "hr",
       },
       {
-        tag: "hr"
+        tag: "h1",
+        content: "أكبر تغيير في تاريخ الموقع 😄🔥",
       },
       {
         tag: "h3",
-        content: "بعد يومين من الشغل المتواصل، تم تحويل الموقع من Vanilla Javascript إلى عالم React الفخم"
+        content:
+          "بعد يومين من الشغل المتواصل، تم تحويل الموقع من Vanilla Javascript إلى عالم React الفخم",
       },
       {
         tag: "p",
-        content: "الموقع صار الآن شغال باستخدام رياكت ومكاتب رياكت الرهيبة"
+        content: "الموقع صار الآن شغال باستخدام رياكت ومكاتب رياكت الرهيبة",
       },
       {
         tag: "p",
-        content: "وبإستخدام TailwindCSS بطلت محتاج أسوي ملف CSS منفصل لكل ستايل حجم شاشة مختلف"
+        content:
+          "وبإستخدام TailwindCSS بطلت محتاج أسوي ملف CSS منفصل لكل ستايل حجم شاشة مختلف",
       },
       {
         tag: "p",
-        content: "وبإستغلال JSX بطلت محتاج أخزن البيانات بطريقة معقدة وعرضها بطريقة أعقد، صار كل اشي أسرع وأسهل"
+        content:
+          "وبإستغلال JSX بطلت محتاج أخزن البيانات بطريقة معقدة وعرضها بطريقة أعقد، صار كل اشي أسرع وأسهل",
       },
       {
         tag: "p",
-        content: "ومع استخدام الـReact Router صار كل محتوى برابط خاص"
+        content: "ومع استخدام الـReact Router صار كل محتوى برابط خاص",
       },
       {
         tag: "p",
-        content: "وضفت أنميشن للتنقل بين الأسبابيع، وضفت صفحة واجهة"
+        content: "وضفت أنميشن للتنقل بين الأسبابيع، وضفت صفحة واجهة",
       },
       {
         tag: "p",
-        content: "مع السلامة لـVanilla Javascript 🫡"
+        content: "مع السلامة لـVanilla Javascript 🫡",
       },
       {
         tag: "ul",
         content: [
           {
             title: "الموقع القديم (مابيتحدث)",
-            link: "https://mohammedsissa.github.io/old-mohsaid99/"
-          }
-        ]
-      }
+            link: "https://mohammedsissa.github.io/old-mohsaid99/",
+          },
+        ],
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "صور من الحياة",
+      },
+      {
+        tag: "p",
+        content: "آخر رغيف خبر هاكله هاد الأسبوع",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/5drzwt9.jpeg",
+        thumbnail: "https://i.imgur.com/wDY9Ae0.jpeg",
+      },
+      {
+        tag: "p",
+        content: "حبية عمو أم عيون حلوة 🥹",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/1sqXFFI.jpeg",
+        thumbnail: "https://i.imgur.com/QKIeRXN.jpeg",
+      },
+      {
+        tag: "p",
+        content: "شاي بالحليب ♨️",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/PhiKdr3.jpeg",
+        thumbnail: "https://i.imgur.com/BsGoGKR.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/ZWqkOZ6.jpeg",
+        thumbnail: "https://i.imgur.com/eqozOuj.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/I3jVObJ.jpeg",
+        thumbnail: "https://i.imgur.com/fbwmrsf.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/49zjlPb.jpeg",
+        thumbnail: "https://i.imgur.com/J9D8Xhb.jpeg",
+      },
     ],
   },
   {
@@ -624,6 +677,7 @@ export const weeks = [
   },
   {
     id: 17,
+    isSpecial: true,
     meta: {
       duration: "من 23 أبريل لـ 29 أبريل",
       summary: "أنهيت كورس الرياكت",
@@ -1635,6 +1689,7 @@ export const weeks = [
   },
   {
     id: 11,
+    isSpecial: true,
     meta: {
       duration: "من 12 مارس لـ 18 مارس",
       summary: "صرت عم، بديت بالرياكت، مشوار غزة الثالث",
@@ -1946,6 +2001,7 @@ export const weeks = [
   },
   {
     id: 10,
+    isSpecial: true,
     meta: {
       duration: "من 5 مارس لـ 11 مارس",
       summary: "إضافات كبيرة للموقع ⭐",
@@ -2230,6 +2286,7 @@ export const weeks = [
   },
   {
     id: 8,
+    isSpecial: true,
     meta: {
       duration: "من 19 فبراير لـ 25 فبراير",
       summary: "خلصت كورس الجافاسكريبت",
@@ -2842,6 +2899,7 @@ export const weeks = [
   },
   {
     id: 2,
+    isSpecial: true,
     meta: {
       summary: "برمجة هاد الموقع",
       year: 2025,

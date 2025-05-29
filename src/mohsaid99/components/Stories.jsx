@@ -4,10 +4,10 @@ import Story from "./Story";
 const Stories = ({ type }) => {
   const { weeks, goals } = dataCenter;
   return (
-    <div className="stories mt-8 md:mt-25 border-0 border-b-1 h-37 flex gap-8 items-center p-5">
+    <div className="stories mt-8 md:mt-25 border-0 border-b-1 h-47 flex gap-8 items-center p-5 py-10">
       {type === "weeks" ? (
         weeks.map((week, i) => (
-          <Story type={type} data={week.meta} id={week.id} key={i} />
+          <Story type={type} data={week.meta} id={week.id} key={i} isSpecial={week?.isSpecial} />
         ))
       ) : type === "goals" ? (
         goals.map((goal, i) => (
