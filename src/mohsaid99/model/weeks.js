@@ -1,5 +1,215 @@
 export const weeks = [
   {
+    id: 11,
+    meta: {
+      duration: "من 12 مارس لـ 18 مارس",
+      summary: "صرت عم، بديت بالرياكت، مشوار غزة الثالث",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "تعديلات بسيطة على الموقع",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Twdx7oB.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/3MH6zcZ.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/drQY1pY.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "بتاريخ 12 مارس الساعة 4 ونص الفجر",
+      },
+      {
+        tag: "p",
+        content: "صرت عمو 🤗 مرحبا زينة 💞",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/veWwRQj.jpeg",
+      },
+      {
+        tag: "hr"
+      },
+      {
+        tag: "h1",
+        content: "تحديث جديد: Lazy Loading 🦥",
+      },
+      {
+        tag: "p",
+        content:
+          "يعني ببساطة إنك ما بتجيب كل البيانات أو الصور مرة وحدة لما تفتح الموقع، لا.. بتخلي الحاجات تنزل بس لما تحتاجها، يعني لما توصللها وأنت بتتصفح",
+      },
+      {
+        tag: "p",
+        content:
+          "بدل ما أحمل كل الداتا دفعة وحدة، خليت البيانات تنزل بس لما أوصللها بالموقع، وهيك صار الموقع اسرع واخف 💯",
+      },
+      {
+        tag: "p",
+        content: "صورة الكود عشان ما أنساه 🤓",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/QASpXyV.jpeg",
+      },
+      {
+        tag: "hr"
+      },
+      {
+        tag: "h1",
+        content: "عملت تصميم لبور بانك لابتوب، بيجي يوم أسويه 🙂"
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/YDEichW.jpeg"
+      },
+      {
+        tag: "hr"
+      },
+      {
+        tag: "h1",
+        content: "إنجاز جديد: خلصت الكورس الثالث في دورة Full-Stack 💫"
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/WSNANmX.jpeg"
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/WkiEpbG.jpeg"
+      },
+      {
+        tag: "h1",
+        content: "المشروع الأخير: صفحة بورتفوليو تستجيب لكل أحجام الشاشات"
+      },
+      {
+        tag: "iframe",
+        videoId: "-d3HiNIH1gU",
+        type: "desktop"
+      }
+    ],
+  },
+  {
+    id: 10,
+    meta: {
+      duration: "من 5 مارس لـ 11 مارس",
+      summary: "إضافات كبيرة للموقع ⭐",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "تحديث جديد: مرحبا بالإيمجويات 🙂🔥",
+      },
+      {
+        tag: "p",
+        content:
+          "غيرت كل الكلام، قبل كان جاف شوي، ومع ✨ الإيموجيات ✨ صار في روح وحياة بالموقع بدل الجو الرسمي 😄",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "تحديث على الصور",
+      },
+      {
+        tag: "p",
+        content:
+          "خليت الصورة كلها تبقى ظاهرة، يعني دايما طول الصورة أصغر من طول الشاشة",
+      },
+      {
+        tag: "h1",
+        content: "قبل 👇🏻",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/VLnejBf.jpeg",
+      },
+      {
+        tag: "h1",
+        content: "بعد 👇🏻",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/iZWj8OM.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "تحديث جديد: إعادة برمجة الموقع من الصفر ✨",
+      },
+      {
+        tag: "p",
+        content:
+          "غيرت طريقة تخزين البيانات، كنت محتاج أستغني عن استخدام سكريبتات خارجية، كنت محتاج طريقة أسهل لإضافة التحديثات كل مرة",
+      },
+      {
+        tag: "h1",
+        content: "الطريقة القديمة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/U55XqtK.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/C3xjf9n.jpeg",
+      },
+      {
+        tag: "h1",
+        content: "الطريقة الجديدة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/q9YTLk7.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/PTYE8bK.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/40ZRyfn.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "تحديث جديد: تغيير ستايل الموقع",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/ajj81FN.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/U3NBAN8.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/d1z5WUt.jpeg",
+      },
+    ],
+  },
+  {
     id: 9,
     meta: {
       duration: "من 26 فبراير لـ 4 مارس",
@@ -24,6 +234,9 @@ export const weeks = [
         content: "https://i.imgur.com/ipnctsO.png",
       },
       {
+        tag: "hr",
+      },
+      {
         tag: "h1",
         content: "حليت سؤال 23 من Project Euler",
       },
@@ -39,118 +252,136 @@ export const weeks = [
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/LgsSBoe.png"
+        content: "https://i.imgur.com/LgsSBoe.png",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h1",
-        content: "غيرت cdn الصور"
+        content: "غيرت cdn الصور",
       },
       {
         tag: "p",
-        content: "كنت أرفع الصور على الانستا، بعد هيك أنسخ الرابط تاعهم وأضيفه هان",
+        content:
+          "كنت أرفع الصور على الانستا، بعد هيك أنسخ الرابط تاعهم وأضيفه هان",
       },
       {
         tag: "p",
-        content: "بس اكتشفت انه الإنستا بيغير روابط الصور كل شهر، صار مشاكل والصور بطلت تظهر"
+        content:
+          "بس اكتشفت انه الإنستا بيغير روابط الصور كل شهر، صار مشاكل والصور بطلت تظهر",
       },
       {
         tag: "p",
-        content: "يعني كل شهر بدي احدث روابط الصور كلها!"
+        content: "يعني كل شهر بدي احدث روابط الصور كلها!",
       },
       {
         tag: "p",
-        content: "لقيت موقع اسمه imgur بيعطي روابط ثابتة"
+        content: "لقيت موقع اسمه imgur بيعطي روابط ثابتة",
       },
       {
         tag: "h1",
-        content: "وكمان عملت تحسينات على الصور"
+        content: "وكمان عملت تحسينات على الصور",
       },
       {
         tag: "p",
-        content: "غيرت صيغة الصور من png ل jpg، حجم الصور صار أقل بنسبة 90 بالمية"
+        content:
+          "غيرت صيغة الصور من png ل jpg، حجم الصور صار أقل بنسبة 90 بالمية",
       },
       {
         tag: "p",
-        content: "يعني التصفح هيكون أسرع خاصة على النت الضعيف، زي هالأيام النت وضعه صعب"
+        content:
+          "يعني التصفح هيكون أسرع خاصة على النت الضعيف، زي هالأيام النت وضعه صعب",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h1",
-        content: "حليت سؤال 25 - السؤال الأخير من Project Euler"
+        content: "حليت سؤال 25 - السؤال الأخير من Project Euler",
       },
       {
         tag: "img",
         content: "https://i.imgur.com/FhLBL3X.jpeg",
-        isLightImage: true
+        isLightImage: true,
       },
       {
         tag: "p",
-        content: "بده اياني أعرف أول رقم بسلسلة فيبوناتشي فيه 1000 رقم"
+        content: "بده اياني أعرف أول رقم بسلسلة فيبوناتشي فيه 1000 رقم",
       },
       {
         tag: "p",
-        content: "يعني رقم عبارة عن 1 وجنبه 999 صفر!"
+        content: "يعني رقم عبارة عن 1 وجنبه 999 صفر!",
       },
       {
         tag: "p",
-        content: "هاد الكلام مستحيل ينحسب هيك بالكود، كان لازم ألاقي طريقة لحله",
+        content:
+          "هاد الكلام مستحيل ينحسب هيك بالكود، كان لازم ألاقي طريقة لحله",
       },
       {
         tag: "p",
-        content: "الفكرة للحل اني همشي بالسلسلة رقم رقم، هحول الرقم لنص عشان احسب طوله، لعند م أوصل لطول 1000 بوقف"
+        content:
+          "الفكرة للحل اني همشي بالسلسلة رقم رقم، هحول الرقم لنص عشان احسب طوله، لعند م أوصل لطول 1000 بوقف",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/dMLOdZN.jpeg"
+        content: "https://i.imgur.com/dMLOdZN.jpeg",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h1",
-        content: "المواضيع اللي تعملت عنها الأسبوع هاد"
+        content: "المواضيع اللي تعملت عنها الأسبوع هاد",
       },
       {
         tag: "ul",
         content: [
           {
             title: "Advanced HTML + CSS",
-            link: "#"
+            link: "#",
           },
           {
             title: "Accessibility, ARIA, ARIA Attributes",
-            link: "#"
-          }
-        ]
+            link: "#",
+          },
+        ],
       },
       {
         tag: "img",
         content: "https://i.imgur.com/Sn3VjvR.jpeg",
-        isLightImage: true
+        isLightImage: true,
       },
       {
         tag: "h1",
-        content: "موضوع الAccessibility أو سهولة الوصول"
+        content: "موضوع الAccessibility أو سهولة الوصول",
       },
       {
         tag: "p",
-        content: "موضوع مهم لأنه بيعلمك كيف تخلي الموقع متجاوب مع كل المستخدمين"
+        content:
+          "موضوع مهم لأنه بيعلمك كيف تخلي الموقع متجاوب مع كل المستخدمين",
       },
       {
         tag: "p",
-        content: "حتى اللي عندهم احتياجات خاصة، باستخدام تقنيات مثل التباين اللوني الواضح",
+        content:
+          "حتى اللي عندهم احتياجات خاصة، باستخدام تقنيات مثل التباين اللوني الواضح",
       },
       {
         tag: "p",
-        content: "الكلام سهل القراءة، الواضح، التنقل باستخدام الكيبورد، وكمان حجات تانية"
+        content:
+          "الكلام سهل القراءة، الواضح، التنقل باستخدام الكيبورد، وكمان حجات تانية",
       },
       {
         tag: "h1",
-        content: "بعد هيك هفوت على كورس الرياكت! 🔥"
+        content: "بعد هيك هفوت على كورس الرياكت! 🔥",
       },
       {
-        tag: "hr"
+        tag: "hr",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/NrjHuUZ.jpeg"
-      }
+        content: "https://i.imgur.com/NrjHuUZ.jpeg",
+      },
     ],
   },
   {
@@ -200,6 +431,9 @@ export const weeks = [
         isLightImage: true,
       },
       {
+        tag: "hr",
+      },
+      {
         tag: "h2",
         content: "حليت سؤال رقم 22 من Project Euler ✅",
       },
@@ -236,6 +470,9 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/1jK6AQZ.png",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h1",
@@ -278,6 +515,10 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/m8VLAmF.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -287,6 +528,10 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/sTXQdYe.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -296,6 +541,9 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/VC9kcA9.jpeg",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -315,14 +563,17 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/HYmkDSY.jpeg",
+        isLightImage: true,
       },
       {
         tag: "img",
         content: "https://i.imgur.com/20LxI4E.jpeg",
+        isLightImage: true,
       },
       {
         tag: "img",
         content: "https://i.imgur.com/AD2KBFW.jpeg",
+        isLightImage: true,
       },
       {
         tag: "img",
@@ -335,14 +586,19 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/fixdzRv.jpeg",
+        isLightImage: true,
       },
       {
         tag: "img",
         content: "https://i.imgur.com/nPzLUFn.jpeg",
+        isLightImage: true,
       },
       {
         tag: "img",
         content: "https://i.imgur.com/ZZGxpk2.jpeg",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -355,6 +611,10 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/yBPuQLr.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -363,6 +623,10 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/tqpdTD7.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -371,10 +635,12 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/pN7nxZA.jpeg",
+        isLightImage: true,
       },
       {
         tag: "img",
         content: "https://i.imgur.com/gGq2s8b.jpeg",
+        isLightImage: true,
       },
       {
         tag: "img",
@@ -389,12 +655,18 @@ export const weeks = [
         content: "https://i.imgur.com/4oY1dKl.jpeg",
       },
       {
-        tag: "p",
-        content: "كاظم، الساحة",
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "كاظم، الساحة 🪐",
       },
       {
         tag: "img",
         content: "https://i.imgur.com/mVPbp5W.jpeg",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -409,10 +681,15 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/YsaEeUF.jpeg",
+        isLightImage: true,
       },
       {
         tag: "img",
         content: "https://i.imgur.com/dSly3x0.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h1",
@@ -424,7 +701,10 @@ export const weeks = [
         isLightImage: true,
       },
       {
-        tag: "p",
+        tag: "hr",
+      },
+      {
+        tag: "h3",
         content:
           "سويت سكريبت بيخلي تنزيل الأسابيع أسهل، هو بيكتب الكود لحاله، وأنا بس بدخل الكلام ورابط الصور ✨",
       },
@@ -456,6 +736,9 @@ export const weeks = [
         content: "https://i.imgur.com/BH9t49n.jpeg",
         thumbnail: "https://i.imgur.com/3BkQ8Yg.jpg",
         size: "long",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -505,6 +788,9 @@ export const weeks = [
         content: "https://i.imgur.com/ka2g2Vc.png",
       },
       {
+        tag: "hr",
+      },
+      {
         tag: "h1",
         content: "خطوة جديدة: تعلمت كيف أسوي اختبارات تلقائية للكود 🛠",
       },
@@ -515,6 +801,9 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/W9siGTo.png",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h1",
@@ -659,6 +948,9 @@ export const weeks = [
         content: "https://i.imgur.com/49FbM1g.png",
       },
       {
+        tag: "hr",
+      },
+      {
         tag: "p",
         content: " الشكل الحالي للمشروع: لسا بده شوية شغل وتحسينات ✍️",
       },
@@ -676,6 +968,9 @@ export const weeks = [
         isLightImage: true,
         tag: "img",
         content: "https://i.imgur.com/QG2bSCf.png",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h3",
@@ -718,12 +1013,18 @@ export const weeks = [
         content: "https://i.imgur.com/a4QOAMo.jpeg",
       },
       {
+        tag: "hr",
+      },
+      {
         tag: "h2",
         content: "التصميم الأول: كان بسيط",
       },
       {
         tag: "img",
         content: "https://i.imgur.com/FKy14XK.jpeg",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h2",
@@ -733,6 +1034,9 @@ export const weeks = [
         tag: "p",
         content:
           "ضفت اقتباس جديد كل أسبوع، وعملت تعديلات على التصميم بحيث يكون متجاوب أكتر",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "h1",
@@ -751,6 +1055,9 @@ export const weeks = [
         tag: "img",
         content: "https://i.imgur.com/mFnu2wz.jpeg",
         size: "normal",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
@@ -788,6 +1095,9 @@ export const weeks = [
       {
         tag: "img",
         content: "https://i.imgur.com/C3OM08R.jpeg",
+      },
+      {
+        tag: "hr",
       },
       {
         tag: "p",
