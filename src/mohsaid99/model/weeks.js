@@ -1,5 +1,434 @@
 export const weeks = [
   {
+    id: 15,
+    meta: {
+      duration: "من 9 أبريل لـ 15 أبريل",
+      summary: "رياكت متقدم",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "مقدمة في اختبار الرياكت",
+      },
+      {
+        tag: "p",
+        content: "Vitest, React Testing Library (RTL)",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/foXHyqC.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/amNEMd9.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/C3OAmq8.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/4lBBUsH.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/hBo3aDr.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/VZzCwE6.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/3DXiXO2.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "React Router",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/eJqqQUr.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/uSHly7p.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/npyWyBJ.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/4aXjLBw.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/lA1Gsye.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/cCQxjzQ.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "صور من الحياة  📷",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/zyAERvZ.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/uKeNppH.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/cUQjCun.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/GD1re2X.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/QSNikaC.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "في هاد الأسبوع تعلمت عن",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "React Testing Library",
+            link: "#",
+          },
+          {
+            title: "Vitest",
+            link: "#",
+          },
+          {
+            title: "Jest DOM",
+            link: "#",
+          },
+          {
+            title: "Screen, Render, user-event",
+            link: "#",
+          },
+          {
+            title: "Prototypal Inheritance",
+            link: "#",
+          },
+          {
+            title: "PropTypes",
+            link: "#",
+          },
+          {
+            title: "defaultProps",
+            link: "#",
+          },
+          {
+            title: "History API",
+            link: "#",
+          },
+          {
+            title: "Single Page Applications (SPA)",
+            link: "#",
+          },
+          {
+            title: "React Router",
+            link: "#",
+          },
+        ],
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/bOFhjfi.jpeg",
+      },
+    ],
+  },
+  {
+    id: 14,
+    meta: {
+      duration: "من 2 أبريل لـ 8 أبريل",
+      summary: "مشروع رياكت الثاني",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "مشروع رياكت الثاني: Memory Cards",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/uHRNwfA.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Np5cBaD.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/yj4jEcN.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/AlbULB3.png",
+      },
+      {
+        tag: "p",
+        content: "بديت أتطور بالرياكت 🤓",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "سويت ناموسية بعوض 🦟🚫",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/GiEQv2H.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "ستريك Duolingo وصل 221 يوم  😤",
+      },
+      {
+        tag: "img",
+        size: "extra-small",
+        content: "https://i.imgur.com/IS13XVv.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "أحداث من الواقع",
+      },
+      {
+        tag: "h3",
+        content: "إحتلال رفح",
+      },
+      {
+        tag: "p",
+        content: "اليوم منطقة فيلادلفيا ب انعملت، في موراج، كل رفح راحت",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "صور من الحياة 📷",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/HQFX6Ys.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/IvlJeZC.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/0kOugos.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/d6rTRn1.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/8OrSrZ6.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "الحجات اللي تعملتها الأسبوع هاد",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "JSX",
+            link: "#",
+          },
+          {
+            title: "States in React",
+            link: "#",
+          },
+          {
+            title: "Props",
+            link: "#",
+          },
+          {
+            title: "useEffect, useState",
+            link: "#",
+          },
+          {
+            title: "React Class Components",
+            link: "#",
+          },
+          {
+            title: "Clothes in Hebrew",
+            link: "#",
+          },
+        ],
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/cEdqDjy.jpeg",
+      },
+    ],
+  },
+  {
+    id: 13,
+    meta: {
+      duration: "من 26 مارس لـ 1 أبريل",
+      summary: "أول مشروع في الرياكت",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "المشروع الأول بالرياكت: CV Application",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/s4nyv7H.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Qzcivzh.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "شغل بالبيت",
+      },
+      {
+        tag: "p",
+        content: "عملت شبكة الليدات، صار بكل غرفة ليد مع مفتاحه",
+      },
+    ],
+  },
+  {
+    id: 12,
+    meta: {
+      duration: "من 19 مارس لـ 25 مارس",
+      summary: "رجعت الحرب",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "تغيير في السيت أب",
+      },
+      {
+        tag: "p",
+        content:
+          "عدت ترتيب غرفتي خصوصا مع الأغراض الجديدة اللي جبتهم معي من غزة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/RAxAFW3.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/I5sIkmC.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "رجعت الحرب",
+      },
+      {
+        tag: "p",
+        content:
+          "للأسف الهدنة ماكانت غير بريك من المجازر، الظروف صعبة، الحمدلله على كل شيء",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "جوالي خرب تاني",
+      },
+      {
+        tag: "p",
+        content: "مع الكهرب طبعا، كل اشي تقريبا قاعد بيخرب مع الواحد، حتى مخه",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/BSySora.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "تغيير بشكل الموقع على الشاشات الكبيرة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/6mEvjOT.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "أول خطوات بالرياكت",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/mhZM3tM.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/FJgQD9S.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/ykIOwL6.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/STn9bib.jpeg",
+      },
+    ],
+  },
+  {
     id: 11,
     meta: {
       duration: "من 12 مارس لـ 18 مارس",
