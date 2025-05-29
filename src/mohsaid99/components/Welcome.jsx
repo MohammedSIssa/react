@@ -38,6 +38,7 @@ function Welcome() {
           الأهداف
         </NavLink>
       </div>
+      <p className="text-sm sm:text-lg md:text-xl lg:text-2xl">صنع بالحب بإستخدام React ❤️</p>
     </div>
   );
 }

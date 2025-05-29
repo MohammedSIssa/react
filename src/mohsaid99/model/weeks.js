@@ -1,5 +1,841 @@
 export const weeks = [
   {
+    id: 22,
+    meta: {
+      duration: "من 28 مايو لـ 3 يونيو",
+      summary: "🔴",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "أهداف الأسبوع",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "إعادة برمجة الموقع بإستخدام رياكت",
+            link: "#",
+          },
+          {
+            title: "تكملة على دورة Node.js",
+            link: "#",
+          },
+        ],
+      },
+      {
+        tag: "h1",
+        content: "أكبر تغيير في تاريخ الموقع 😄🔥"
+      },
+      {
+        tag: "hr"
+      },
+      {
+        tag: "h3",
+        content: "بعد يومين من الشغل المتواصل، تم تحويل الموقع من Vanilla Javascript إلى عالم React الفخم"
+      },
+      {
+        tag: "p",
+        content: "الموقع صار الآن شغال باستخدام رياكت ومكاتب رياكت الرهيبة"
+      },
+      {
+        tag: "p",
+        content: "وبإستخدام TailwindCSS بطلت محتاج أسوي ملف CSS منفصل لكل ستايل حجم شاشة مختلف"
+      },
+      {
+        tag: "p",
+        content: "وبإستغلال JSX بطلت محتاج أخزن البيانات بطريقة معقدة وعرضها بطريقة أعقد، صار كل اشي أسرع وأسهل"
+      },
+      {
+        tag: "p",
+        content: "ومع استخدام الـReact Router صار كل محتوى برابط خاص"
+      },
+      {
+        tag: "p",
+        content: "وضفت أنميشن للتنقل بين الأسبابيع، وضفت صفحة واجهة"
+      },
+      {
+        tag: "p",
+        content: "مع السلامة لـVanilla Javascript 🫡"
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "الموقع القديم (مابيتحدث)",
+            link: "https://mohammedsissa.github.io/old-mohsaid99/"
+          }
+        ]
+      }
+    ],
+  },
+  {
+    id: 21,
+    meta: {
+      duration: "من 21 مايو لـ 27 مايو",
+      summary: "مقدمة في عالم الـbackend",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "أهداف الأسبوع",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "أتعمق في SQL",
+            link: "#",
+          },
+          {
+            title: "أبدأ دورة Node.js",
+            link: "#",
+          },
+          {
+            title: "أعمل مشاريع بالرياكت",
+            link: "#",
+          },
+        ],
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "كورس الأسبوع",
+      },
+      {
+        tag: "p",
+        content: "بعمل موقع 3D باستخدام الرياكت ومكاتبها الرهيبة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/YM8MIor.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "التعمق في SQL",
+      },
+      {
+        tag: "p",
+        content: "لقيت موقع بيعلم على شكل حل قضايا شرطة وإجرام يعني",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "SQLPD.com",
+            link: "https://sqlpd.com/",
+          },
+        ],
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/3nCREMk.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/RgnYA1K.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/ji7CALZ.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/yUdoC26.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "بداية كورس Node.js",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/JmoDPSm.png",
+      },
+      {
+        tag: "h1",
+        content: "صنعت أول سيرفر",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/V42gspi.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "حضرت كورس ساعتين خفيف",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/uC3Tusy.jpeg",
+      },
+      {
+        tag: "h1",
+        content: "صنعت أول API",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/HtTpth3.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/nck8Hhb.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/bjwfIRk.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "الأشياء اللي تعلمتها خلال الأسبوع",
+      },
+      {
+        tag: "p",
+        content: "- Node.js -",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "Introduction to Node.js",
+            link: "https://www.theodinproject.com/lessons/nodejs-introduction-what-is-nodejs",
+          },
+          {
+            title: "About Node.js",
+            link: "https://nodejs.org/en/about/",
+          },
+        ],
+      },
+      {
+        tag: "p",
+        content: "- Articles I read -",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "Blocking vs. Non-Blocking Events",
+            link: "https://nodejs.org/en/learn/asynchronous-work/overview-of-blocking-vs-non-blocking",
+          },
+          {
+            title: "Understandnig Callbacks",
+            link: "https://dev.to/i3uckwheat/understanding-callbacks-2o9e",
+          },
+          {
+            title: "Introduction to the server side",
+            link: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Introduction",
+          },
+          {
+            title: "Client-server overview",
+            link: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+          },
+          {
+            title: "Making network requests with JavaScript",
+            link: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+          },
+          {
+            title: "Making HTTP requests with Node.js",
+            link: "https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 20,
+    meta: {
+      duration: "من 14 مايو لـ 20 مايو",
+      summary: "كورس قواعد البيانات",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "بدأت بكورس قواعد البيانات",
+      },
+      {
+        tag: "p",
+        content: "بهالكورس رح أركز على PostgreSQL",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/wdBdyYG.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content:
+          "الكورس كان خفيف من على الموقع الرسمي، كان أغلبه روابط وفيديوهات",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/i9FQa2v.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/vqYztgn.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/R2xfOHU.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/mkZhjNy.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/VHIqqVj.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/ne40DOu.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "خلصت الكورس",
+      },
+      {
+        tag: "p",
+        content: "طبعا محتاج أتعمق أكتر لسا",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/M6VOTX5.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "أحداث من الواقع",
+      },
+      {
+        tag: "p",
+        content: "18/05/2025",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/nOuvl9X.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/77baW67.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "صور من الحياة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/YKzZzux.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "p",
+        content: "صرنا نوزع الخبز بالعد على بعض",
+      },
+      {
+        tag: "p",
+        content: "بيطلعي 4 أرغف كل يومين",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Zsbw3HT.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/NDuilUY.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/X5W6Clu.jpeg",
+      },
+      {
+        tag: "p",
+        content: "زينة وهي مبسوطة 💞",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/euBXvXG.jpeg",
+      },
+    ],
+  },
+  {
+    id: 19,
+    meta: {
+      duration: "من 7 مايو لـ 13 مايو",
+      summary: "كورس MERN ستاك",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "كورس الأسبوع",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/OXQrKV0.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "جزئية الـBackend",
+      },
+      {
+        tag: "p",
+        content: "Express + MongoDB + Postman",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/yUCPsMm.jpeg",
+      },
+      {
+        tag: "h1",
+        content: "GET /api/products",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/1MXvExC.jpeg",
+      },
+      {
+        tag: "h1",
+        content: "DELETE /api/products/:id",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/U4CTAFS.jpeg",
+      },
+      {
+        tag: "h1",
+        content: "PUT /api/products/:id",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/UnJfQcW.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "هيكلية الملفات",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/proFQF0.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "جزئية الـFrontend",
+      },
+      {
+        tag: "p",
+        content: "React + TailwindCSS + Toastify",
+      },
+      {
+        tag: "h1",
+        content: "بنيت صفحة واجهة لإضافة المنتجات",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/5YlBZyd.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "p",
+        content: "تم إضافة المنتج",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/DOdWiZk.jpeg",
+      },
+      {
+        tag: "h1",
+        content: "تنزيل وتزبيط مكتبة react-toastify",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/I13neV5.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/5EBWoWO.jpeg",
+      },
+      {
+        tag: "h1",
+        content: "تم تزبيط الاشعارات",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/kFSMvxB.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/5r5nk2R.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/He55Dvt.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "المشروع جهز",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/jrFD1lx.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/mYK30CL.jpeg",
+      },
+    ],
+  },
+  {
+    id: 18,
+    meta: {
+      duration: "من 30 أبريل لـ 6 مايو",
+      summary: "مشاريع بالرياكت",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "Landing Page 2",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/bBkK4lm.jpeg",
+        size: "long",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "Landing Page 3",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Yc4aBza.jpeg",
+        size: "long",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "بتعلم في TailwindCSS",
+      },
+      {
+        tag: "p",
+        content: "ياهلا بالسرعة في التصميم، مع دعم كل أحجام الأجهزة",
+      },
+      {
+        tag: "h1",
+        content: "Landing Page 4",
+      },
+      {
+        tag: "p",
+        content: "صنعت بمساعدة TailwindCSS",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "عرض الموقع 👀",
+            link: "https://mohammedsissa.github.io/landing-page-5/",
+          },
+        ],
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/UPjr0DH.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/SnRplqY.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/bNSyoX7.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/m6ctVKO.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "بديت بالشغل في موقع لأبوي",
+      },
+      {
+        tag: "p",
+        content: "هيكون موقع لتعليم الفيزياء لكل المراحل",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/f543xUZ.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/ySrDUxL.png",
+      },
+    ],
+  },
+  {
+    id: 17,
+    meta: {
+      duration: "من 23 أبريل لـ 29 أبريل",
+      summary: "أنهيت كورس الرياكت",
+      year: 2025,
+    },
+    events: [
+      {
+        tag: "h1",
+        content: "أنهيت كورس الرياكت 🎇",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/4FBo6q4.jpg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/gi27liP.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "مشروع: نسخة من موقع react.dev",
+      },
+      {
+        tag: "p",
+        content: "ممارسة للي تعلمته، مش كلشي شغال طبعا",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/dCqqqVi.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/ZlHsRCF.png",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/EJV9w6R.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/fXuLe3C.png",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/wVLjuC9.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/evi6qcu.png",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/b06zckB.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/cauXJrO.png",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/0Q14Jdb.png",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "عملت حساب upwork",
+      },
+      {
+        tag: "p",
+        content: "هلقيت لازم أعمل portfolio يعجب الزبون حتى أشتغل",
+      },
+      {
+        tag: "p",
+        content: "هبدأ في عمل landing pages لانه عليهم طلب",
+      },
+      {
+        tag: "p",
+        content: "تحويل تصميم صورة إلى كود رياكت",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "Landing Page 1",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/l9SIBO0.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/XG0XVH7.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/Amxscla.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/O8NbEd6.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/jllFDlj.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/3LdGAR1.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/dHFDqRs.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/q3Wued5.jpeg",
+        isLightImage: true,
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "صور من الحياة",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/kU6D7Qc.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/nKifJzz.jpeg",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/pDaC5DV.jpeg",
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "h1",
+        content: "الأشياء اللي تعلمتها خلال الأسبوع",
+      },
+      {
+        tag: "p",
+        content: "- Memoization -",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "The Odin Project Lesson",
+            link: "https://www.theodinproject.com/lessons/node-path-react-new-refs-and-memoization#the-usememo-hook",
+          },
+        ],
+      },
+      {
+        tag: "p",
+        content: "- useRef -",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "react.dev",
+            link: "https://react.dev/learn/referencing-values-with-refs",
+          },
+          {
+            title: "The Odin Project Lesson",
+            link: "https://www.theodinproject.com/lessons/node-path-react-new-refs-and-memoization#the-useref-hook",
+          },
+        ],
+      },
+      {
+        tag: "p",
+        content: "- Articles I read -",
+      },
+      {
+        tag: "ul",
+        content: [
+          {
+            title: "Manipulating the DOM with Refs",
+            link: "https://react.dev/learn/manipulating-the-dom-with-refs",
+          },
+        ],
+      },
+      {
+        tag: "hr",
+      },
+      {
+        tag: "img",
+        content: "https://i.imgur.com/NwiWlf5.png",
+      },
+    ],
+  },
+  {
     id: 16,
     meta: {
       duration: "من 16 أبريل لـ 22 أبريل",
@@ -319,53 +1155,53 @@ export const weeks = [
       },
       {
         tag: "p",
-        content: "- Context API -"
+        content: "- Context API -",
       },
       {
         tag: "ul",
         content: [
           {
             title: "The Odin Project Lesson",
-            link: "https://www.theodinproject.com/lessons/node-path-react-new-managing-state-with-the-context-api#implementing-context-api"
+            link: "https://www.theodinproject.com/lessons/node-path-react-new-managing-state-with-the-context-api#implementing-context-api",
           },
           {
             title: "React.dev Docs",
-            link: "https://react.dev/reference/react/useContext"
+            link: "https://react.dev/reference/react/useContext",
           },
           {
             title: "React.dev Examples",
-            link: "https://react.dev/learn/passing-data-deeply-with-context"
-          }
-        ]
+            link: "https://react.dev/learn/passing-data-deeply-with-context",
+          },
+        ],
       },
       {
         tag: "p",
-        content: "- useReducer -"
+        content: "- useReducer -",
       },
       {
         tag: "ul",
         content: [
           {
             title: "The Odin Project Lesson",
-            link: "https://www.theodinproject.com/lessons/node-path-react-new-reducing-state"
+            link: "https://www.theodinproject.com/lessons/node-path-react-new-reducing-state",
           },
           {
             title: "React.dev Docs",
-            link: "https://react.dev/learn/extracting-state-logic-into-a-reducer"
+            link: "https://react.dev/learn/extracting-state-logic-into-a-reducer",
           },
           {
             title: "The React useReducer Hook",
-            link: "https://www.telerik.com/blogs/react-usereducer-hook"
-          }
-        ]
+            link: "https://www.telerik.com/blogs/react-usereducer-hook",
+          },
+        ],
       },
       {
-        tag: "hr"
+        tag: "hr",
       },
       {
         tag: "img",
-        content: "https://i.imgur.com/clknE8q.png"
-      }
+        content: "https://i.imgur.com/clknE8q.png",
+      },
     ],
   },
   {
