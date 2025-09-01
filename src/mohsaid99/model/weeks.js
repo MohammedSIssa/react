@@ -312,7 +312,7 @@ export const weeks = [
     id: 20,
     meta: {
       duration: "من 14 مايو لـ 20 مايو",
-      summary: "كورس قواعد البيانات",
+      summary: "كورس قواعد البيانات SQL",
       year: 2025,
     },
     events: [
