@@ -13,6 +13,11 @@ export const OfflineNetApp = () => {
       <HashRouter>
         <NavBar />
         <Routes>
+          <Route
+            path="/"
+            index
+            element={<h1 className="p-10 text-2xl">Homepage.</h1>}
+          />
           <Route path="/movies" element={<MoviesPage />} />
           <Route path="/movies/:id" element={<MoviePlayer />} />
           <Route path="/pdf" element={<Content />} />

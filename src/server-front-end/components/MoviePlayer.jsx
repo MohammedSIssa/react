@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
+import { MovieTrailer } from "./MovieTrailer";
+import { MoviePoster } from "./MoviePoster";
+import { MovieMovie } from "./MovieMovie";
+
 export const MoviePlayer = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -37,8 +41,11 @@ export const MoviePlayer = () => {
   if (data !== null) {
     return (
       <>
-        <h1>{data.item}</h1>
+        <h1>{data.title}</h1>
+        <MoviePoster poster={data.source} ext={data.poster} />
         <p>{data.story}</p>
+        <MovieTrailer video={data.source} />
+        <MovieMovie movie={data.source} />
       </>
     );
   }
