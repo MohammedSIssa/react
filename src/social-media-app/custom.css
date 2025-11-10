@@ -1,0 +1,29 @@
+/* Stack Sans Headline font */
+@import url("https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=swap");
+
+/* headers font */
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+* {
+  font-family: "Stack Sans Headline", system-ui, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #e3e3e3;
+}
+
+.login-form input,
+.login-form button, 
+.login-form label {
+  letter-spacing: 2px;
+}
+
+.header {
+  font-family: Sixtyfour;
+}
+
+input#remember-user {
+  accent-color: #555;
+  width: 16px;
+}

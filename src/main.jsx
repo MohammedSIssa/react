@@ -8,12 +8,14 @@ import { createRoot } from "react-dom/client";
 
 import { OfflineNetApp } from "./server-front-end/OfflineNet";
 import { App } from "./mohsaid-neon/App";
-import ChartApp from "./chartjs/ChartApp";
+// import ChartApp from "./chartjs/ChartApp";
+
+import SocialMediaApp from "./social-media-app/SocialMediaApp";
 
 // import FrontEnd from "./front-end-part/FrontEnd";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ChartApp />
+    <SocialMediaApp />
   </StrictMode>,
 );

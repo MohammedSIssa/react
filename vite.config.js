@@ -1,11 +1,11 @@
 import { defineConfig } from "vite";
-import path from "path";
+// import path from "path";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: '/mohsaid99/',
+  base: '/social-media-app/',
   plugins: [react(), tailwindcss()],
   test: {
     environment: "jsdom",
