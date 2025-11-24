@@ -7,7 +7,7 @@ export default function Inventory() {
   return (
     <div>
       {username && <h1>{username}'s Inventory</h1>}
-      {username || <h1>{user?.username}'s Inventory</h1>}
+      {!username && <h1>{user?.username}'s Inventory</h1>}
     </div>
   );
 }

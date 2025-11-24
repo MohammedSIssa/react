@@ -1,3 +1,6 @@
+import useAuth from "../hooks/useAuth";
+
 export default function Messages() {
-  return <h1>Messages Page</h1>;
+  const { user } = useAuth();
+return <h1>{user.username}'s messages</h1>;
 }

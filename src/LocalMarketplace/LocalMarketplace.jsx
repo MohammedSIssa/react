@@ -27,7 +27,7 @@ const LocalMarketplace = () => {
     <AuthContext value={{ user, setUser }}>
       <HashRouter>
         <NavBar />
-        <div className="pb-20 md:pb-0 md:pt-20">
+        <div className="pb-20 md:pb-0 md:pt-20 p-2">
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/market" element={<Market />} />

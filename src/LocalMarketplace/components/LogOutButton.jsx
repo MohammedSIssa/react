@@ -15,10 +15,10 @@ export default function LogoutButton() {
   return (
     <button
       onClick={logout}
-      className="bg-violet-500 p-2 text-violet-50 hover:cursor-pointer rounded flex items-center justify-center gap-2"
+      className="bg-violet-500 p-2 text-violet-50 hover:cursor-pointer flex items-center justify-center gap-2"
     >
       <CgLogOut size={24} />
-      <span className="hidden md:block">تسجيل الخروج</span>
+      <span>تسجيل الخروج</span>
     </button>
   );
 }
