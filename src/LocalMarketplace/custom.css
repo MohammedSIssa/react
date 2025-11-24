@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+body {
+  font-family: "cairo", system-ui;
+}
+
+.nav-bar a {
+  border-radius: 12px;
+}
+
+.nav-bar a.active {
+  background-color: #8949ff8b;
+  border-radius: 12px;
+  transition: all;
+  transition-duration: 200ms;
+  animation-name: bounced;
+  animation-iteration-count: 1;
+  animation-duration: 600ms;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  font-weight: bold;
+}
+
+@keyframes bounced {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}

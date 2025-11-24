@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   // base: '/social-media-app/',
-  base: '/jsc',
+  base: '/local-market',
   plugins: [react(), tailwindcss()],
   test: {
     environment: "jsdom",
