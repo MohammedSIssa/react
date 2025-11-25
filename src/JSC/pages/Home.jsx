@@ -1,10 +1,14 @@
-import { useAuth } from "../hooks/useAuth";
+import useLang from "../hooks/useLang";
 
 const Home = () => {
-  const { user } = useAuth();
+  const { lang } = useLang();
+
   return (
-    <div className="mt-15 p-5 py-8 h-dvh flex bg-slate-900 text-slate-200">
-      {user ? <h1>Logged in as: {user?.username}</h1> : null}
+    <div
+      className="h-full bg-slate-900 text-slate-200"
+      dir={lang === "ar" ? "rtl" : "ltr"}
+    >
+      {lang === "ar" ? <p>الصفحة الرئيسية</p> : <p>Homepage</p>}
     </div>
   );
 };

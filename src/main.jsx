@@ -12,13 +12,14 @@ import { createRoot } from "react-dom/client";
 
 // import SocialMediaApp from "./social-media-app/SocialMediaApp";
 
-// import JSC from "./JSC/JSC";
+import JSC from "./JSC/JSC";
 // import FrontEnd from "./front-end-part/FrontEnd";
 
-import LocalMarketplace from "./LocalMarketplace/LocalMarketplace";
+// import LocalMarketplace from "./LocalMarketplace/LocalMarketplace";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <LocalMarketplace />
+    {/* <LocalMarketplace /> */}
+    <JSC />
   </StrictMode>,
 );
