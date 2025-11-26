@@ -192,6 +192,13 @@ function CreateHCFS() {
             />
           </div>
         </div>
+        <button
+          type="submit"
+          onClick={handleSubmit}
+          className="p-1 bg-slate-700 rounded mt-2 font-bold hover:brightness-110 cursor-pointer"
+        >
+          {lang === "ar" ? "إضافة" : "Add"}
+        </button>
       </form>
     </div>
   );

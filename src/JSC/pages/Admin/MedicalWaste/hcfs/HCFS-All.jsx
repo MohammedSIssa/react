@@ -3,9 +3,18 @@ import TableHead from "./TableHead";
 import useLang from "../../../../hooks/useLang";
 import { fake_hcfs } from "../../../../fakeData/mw-hcfs";
 
+import { MdEditSquare } from "react-icons/md";
+import { MdPreview } from "react-icons/md";
+import { MdDeleteForever } from "react-icons/md";
+
 import { NavLink } from "react-router-dom";
 
 export default function HCFSAll() {
+  function handleDelete(id) {
+    // alert("DELETE HCFS ID:", id);
+    console.log(id);
+  }
+
   const { lang } = useLang();
   return (
     <div className="h-full">
@@ -33,6 +42,22 @@ export default function HCFSAll() {
               <td>{item.partner}</td>
               <td>{item.status}</td>
               <td>{item.served}</td>
+              <td className="flex gap-2">
+                <NavLink to={`${item.id}/edit`} className="text-blue-500">
+                  <MdEditSquare size={20} />
+                </NavLink>
+                <NavLink to={`${item.id}`} className="text-yellow-500">
+                  <MdPreview size={20} />
+                </NavLink>
+                <button
+                  className="text-red-500"
+                  onClick={() => {
+                    handleDelete(item.id);
+                  }}
+                >
+                  <MdDeleteForever size={20} />
+                </button>
+              </td>
             </tr>
           ))}
         </tbody>

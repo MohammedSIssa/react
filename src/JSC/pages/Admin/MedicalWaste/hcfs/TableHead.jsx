@@ -16,6 +16,7 @@ export default function TableHead() {
             <th>الجهة</th>
             <th>الحالة</th>
             <th>مخدوم؟</th>
+            <th>الإجراءات</th>
           </>
         )}
         {lang === "en" && (
@@ -29,6 +30,7 @@ export default function TableHead() {
             <th>Partner</th>
             <th>Status</th>
             <th>Served?</th>
+            <th>Actions</th>
           </>
         )}
       </tr>

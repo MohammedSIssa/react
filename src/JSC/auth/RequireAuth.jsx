@@ -13,7 +13,9 @@ export default function RequireAuth({ roles }) {
 
   useEffect(() => {
     if (user?.username === undefined || !roles.includes(user?.role)) {
-      navigate(`/${lang}/login`, { replace: true });
+      navigate(`/${lang}/login`, {
+        replace: true,
+      });
     }
   }, [navigate, user?.username, user?.role, roles, lang]);
 
