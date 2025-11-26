@@ -25,3 +25,11 @@ th {
 td {
   text-align: center;
 }
+
+.layout a {
+  transition: all 200ms;
+}
+
+.layout a.active {
+  background-color: #0f172b;
+}

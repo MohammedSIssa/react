@@ -31,7 +31,7 @@ const Layout = () => {
   return (
     <div dir={lang === "ar" ? "rtl" : "ltr"}>
       <NavBar />
-      <div className="mt-15 p-5 py-8 h-dvh bg-slate-900 text-slate-200">
+      <div className="min-h-dvh bg-slate-900 text-slate-200 layout">
         <Outlet />
       </div>
     </div>

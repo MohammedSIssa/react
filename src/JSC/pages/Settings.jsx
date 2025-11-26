@@ -21,7 +21,7 @@ export default function Settings() {
   }
 
   return (
-    <div className="flex items-center justify-center h-full">
+    <div className="flex items-center justify-center h-full p-4">
       <form
         className="flex flex-col gap-2"
         dir={language === "ar" ? "rtl" : "ltr"}

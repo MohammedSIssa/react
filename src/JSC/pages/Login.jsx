@@ -38,7 +38,7 @@ const Login = () => {
   }
 
   return (
-    <div className="bg-slate-900 text-slate-100 flex items-center justify-center h-full">
+    <div className="flex items-center justify-center h-full p-10">
       <form
         dir={lang === "ar" ? "rtl" : "ltr"}
         onSubmit={login}

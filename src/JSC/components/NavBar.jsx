@@ -10,6 +10,7 @@ import { RiLogoutBoxLine } from "react-icons/ri";
 import { MdAdminPanelSettings } from "react-icons/md";
 import { GoHomeFill } from "react-icons/go";
 import { IoMdSettings } from "react-icons/io";
+import { FaUsers } from "react-icons/fa6";
 
 export default function NavBar() {
   const { user, setUser } = useAuth();
@@ -20,9 +21,7 @@ export default function NavBar() {
     removeUser();
   }
   return (
-    <div
-      className="flex items-center gap-2 fixed top-0 left-0 text-slate-50 w-full p-4 bg-slate-700 border-b border-b-slate-600 shadow-lg shadow-slate-800"
-    >
+    <div className="flex items-center gap-2 text-slate-50 w-full p-4 bg-slate-700 border-b border-b-slate-600">
       <NavLink
         to={`/${lang}`}
         className="flex gap-2 items-center justify-center md:bg-slate-600 md:p-2 md:px-4 md:rounded-lg md:hover:bg-slate-500 transition-all duration-100"
@@ -44,6 +43,19 @@ export default function NavBar() {
           <MdAdminPanelSettings size={25} />
           {lang === "ar" && (
             <p className="hidden md:block font-bold">لوحة التحكم</p>
+          )}
+        </NavLink>
+      )}
+
+      {user?.username && user?.role === "ADMIN" && (
+        <NavLink
+          to={`/${lang}/users`}
+          className="flex gap-2 items-center justify-center md:bg-slate-600 md:p-2 md:px-4 md:rounded-lg md:hover:bg-slate-500 transition-all duration-100"
+        >
+          {lang === "en" && <p className="hidden md:block font-bold">Users</p>}
+          <FaUsers size={25} />
+          {lang === "ar" && (
+            <p className="hidden md:block font-bold">المستخدمين</p>
           )}
         </NavLink>
       )}
