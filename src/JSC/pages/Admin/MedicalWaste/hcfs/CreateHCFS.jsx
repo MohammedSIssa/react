@@ -1,12 +1,23 @@
 import { useState } from "react";
-import useLang from "../../../../hooks/useLang";
+import useLang from "@/JSC/hooks/useLang";
+
+// import Input from "./parts/Input";
+import Input from "@/JSC/pages/Admin/MedicalWaste/hcfs/parts/Input";
+import MultiSelect from "@/JSC/pages/Admin/MedicalWaste/hcfs/parts/MultiSelect";
+
+import { fetchWithCache } from "@/JSC/scripts/cache";
+import { API } from "@/JSC/scripts/globals";
+
+import { useEffect } from "react";
 
 function CreateHCFS() {
   const { lang } = useLang();
   const [centerNameAr, setCenterNameAr] = useState("");
   const [centerNameEn, setCenterNameEn] = useState("");
-  const [partnerType, setPartnerType] = useState("");
-  const [partnerName, setPartnerName] = useState("");
+  const [partnerTypesOptions, setPartnerTypeOptions] = useState([]);
+  // const [partnerType, setPartnerType] = useState("");
+  // const [partnerNamesOptions, setPartnerNamesOptions] = useState([]);
+  // const [partnerName, setPartnerName] = useState("");
   const [typeOfMonshaa, setTypeOfMonshaa] = useState("");
   const [ownerPartner, setOwnerPartner] = useState("");
   const [municipal, setMunicipal] = useState("");
@@ -16,6 +27,22 @@ function CreateHCFS() {
   const [notes, setNotes] = useState("");
   const [served, setServed] = useState("");
 
+  // Get Partner Types
+  useEffect(() => {
+    async function getPartnerTypes() {
+      try {
+        const p_types = await fetchWithCache(API + "/hcfs/partner-types");
+        setPartnerTypeOptions(p_types);
+        console.log(p_types);
+      } catch {
+        throw new Error("Error getting partner types");
+      }
+    }
+    if (partnerTypesOptions.length === 0) {
+      getPartnerTypes();
+    }
+  });
+
   function handleSubmit(e) {
     e.preventDefault();
     console.log("Sending data...");
@@ -24,8 +51,8 @@ function CreateHCFS() {
       centerNameAr,
       centerNameEn,
       served,
-      partnerType,
-      partnerName,
+      // partnerType,
+      // partnerName,
       typeOfMonshaa,
       municipal,
       baladyah,
@@ -45,59 +72,40 @@ function CreateHCFS() {
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-2 p-4 my-2 bg-slate-800 border border-slate-700 rounded [&_div]:w-full [&_input]:focus:outline-0 [&_input]:focus:border [&_input]:focus:border-slate-500 [&_label]:font-bold [&_label]:p-1"
+        className="flex flex-col gap-2 p-4 my-2 bg-slate-800 border border-slate-700 rounded [&_div]:w-full [&_input]:focus:outline-0 [&_select]:focus:outline-0 [&_input]:focus:border [&_input]:focus:border-slate-500 [&_select]:focus:border [&_select]:focus:border-slate-500 [&_label]:font-bold [&_label]:p-1 [&_input]:bg-slate-700 [&_select]:bg-slate-700 [&_input]:rounded [&_select]:rounded [&_input]:p-1 [&_select]:p-1 [&_select]:disabled:opacity-50"
       >
-        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col [&_div]:gap-2 [&_input]:bg-slate-700 [&_input]:rounded [&_input]:p-1">
-          <div>
-            <label htmlFor="name_ar">
-              {lang === "ar" ? "الإسم بالعربية" : "Name in Arabic"}
-            </label>
-            <input
-              id="name_ar"
-              name="name_ar"
-              value={centerNameAr}
-              onChange={(e) => setCenterNameAr(e.target.value)}
-            />
-          </div>
-          <div>
-            <label htmlFor="name_en">
-              {lang === "ar" ? "الإسم بالإنجليزي" : "Name in English"}
-            </label>
-            <input
-              id="name_en"
-              name="name_en"
-              value={centerNameEn}
-              onChange={(e) => setCenterNameEn(e.target.value)}
-            />
-          </div>
+        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col [&_div]:gap-2">
+          <Input
+            id="name_ar"
+            ar="الإسم بالعربية"
+            en="Name in Arabic"
+            lang={lang}
+            value={centerNameAr}
+            onChange={(e) => setCenterNameAr(e.target.value)}
+          />
+          <Input
+            id="name_en"
+            ar="الإسم بالإنجليزي"
+            en="Name in English"
+            lang={lang}
+            value={centerNameEn}
+            onChange={(e) => setCenterNameEn(e.target.value)}
+          />
         </div>
 
-        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col [&_input]:bg-slate-700 [&_input]:rounded [&_input]:p-1">
-          <div>
-            <label htmlFor="partner_type">
-              {lang === "ar" ? "نوع الجهة" : "Partner Type"}
-            </label>
-            <input
-              id="partner_type"
-              name="partner_type"
-              value={partnerType}
-              onChange={(e) => setPartnerType(e.target.value)}
-            />
-          </div>
-          <div>
-            <label htmlFor="partner_name">
-              {lang === "ar" ? "اسم الجهة" : "Partner Name"}
-            </label>
-            <input
-              id="partner_name"
-              name="partner_name"
-              value={partnerName}
-              onChange={(e) => setPartnerName(e.target.value)}
-            />
-          </div>
-        </div>
+        {/* <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col">
+          <MultiSelect
+            id="partner_type"
+            lang={lang}
+            ar="نوع الجهة"
+            en="Partner Type"
+            value={partnerType}
+            options={partnerTypesOptions}
+            onChange={(e) => setPartnerType(e.target.value)}
+          />
+        </div> */}
 
-        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col [&_input]:bg-slate-700 [&_input]:rounded [&_input]:p-1">
+        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col">
           <div>
             <label htmlFor="monshaa_type">
               {lang === "ar" ? "نوع المنشأة" : "Monshaa Type"}
@@ -122,7 +130,7 @@ function CreateHCFS() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col [&_input]:bg-slate-700 [&_input]:rounded [&_input]:p-1">
+        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col">
           <div>
             <label htmlFor="municipal">
               {lang === "ar" ? "المحافظة" : "Municipal"}
@@ -147,7 +155,7 @@ function CreateHCFS() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col [&_input]:bg-slate-700 [&_input]:rounded [&_input]:p-1">
+        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col">
           <div>
             <label htmlFor="email">{lang === "ar" ? "الإيميل" : "Email"}</label>
             <input
@@ -170,7 +178,7 @@ function CreateHCFS() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col [&_input]:bg-slate-700 [&_input]:rounded [&_input]:p-1">
+        <div className="flex flex-col md:flex-row gap-2 [&_div]:flex [&_div]:flex-col">
           <div>
             <label htmlFor="notes">{lang === "ar" ? "ملاحظات" : "Notes"}</label>
             <input

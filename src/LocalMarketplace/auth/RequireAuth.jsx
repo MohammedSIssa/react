@@ -9,7 +9,7 @@ export default function RequireAuth({ roles }) {
   const navigate = useNavigate();
   useEffect(() => {
     if (!user?.username) {
-      navigate("/login");
+      navigate("/users/login");
     }
     if (user?.username && !roles.includes(user?.role)) {
       navigate("/unauthorized");

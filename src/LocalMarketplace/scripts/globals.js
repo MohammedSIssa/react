@@ -1,1 +1,1 @@
-export const API = "localhost:3000/local-market";
+export const API = "http://localhost:3000/local-market";

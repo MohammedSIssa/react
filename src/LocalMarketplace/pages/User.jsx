@@ -9,7 +9,7 @@ export default function User() {
   const { user } = useAuth();
   return (
     <div>
-      <h1>{username}</h1>
+      <h1 className="text-2xl">{username}</h1>
       {user?.username == username && <LogoutButton />}
       <NavLink to={`/users/${username}/inventory`}>View Inventory</NavLink>
     </div>

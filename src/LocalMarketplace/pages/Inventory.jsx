@@ -6,8 +6,8 @@ export default function Inventory() {
   const { user } = useAuth();
   return (
     <div>
-      {username && <h1>{username}'s Inventory</h1>}
-      {!username && <h1>{user?.username}'s Inventory</h1>}
+      {username && <h1 className="text-2xl">{username}'s Inventory</h1>}
+      {!username && <h1 className="text-2xl">{user?.username}'s Inventory</h1>}
     </div>
   );
 }

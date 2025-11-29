@@ -21,7 +21,7 @@ export default function NavBar() {
     removeUser();
   }
   return (
-    <div className="flex items-center gap-2 text-slate-50 w-full p-4 bg-slate-700 border-b border-b-slate-600">
+    <div className="flex items-center justify-between md:justify-start px-15 md:px-0 gap-2 text-slate-50 w-full p-4 bg-slate-700 border-b border-b-slate-600">
       <NavLink
         to={`/${lang}`}
         className="flex gap-2 items-center justify-center md:bg-slate-600 md:p-2 md:px-4 md:rounded-lg md:hover:bg-slate-500 transition-all duration-100"

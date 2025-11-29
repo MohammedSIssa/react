@@ -1,11 +1,12 @@
 import TableHead from "./TableHead";
 
-import useLang from "../../../../hooks/useLang";
-import { fake_hcfs } from "../../../../fakeData/mw-hcfs";
+import useLang from "@/JSC/hooks/useLang";
+import { fake_hcfs } from "@/JSC/fakeData/mw-hcfs";
 
 import { MdEditSquare } from "react-icons/md";
 import { MdPreview } from "react-icons/md";
 import { MdDeleteForever } from "react-icons/md";
+import { FaPlus } from "react-icons/fa";
 
 import { NavLink } from "react-router-dom";
 
@@ -24,7 +25,8 @@ export default function HCFSAll() {
             ? "قائمة مراكز الرعاية الصحية (نفايات طبية)"
             : "List of Medical Centers (Medical Waste)"}
         </h1>
-        <NavLink className="bg-slate-700 p-2 rounded font-bold" to="create">
+        <NavLink className="bg-slate-700 p-2 rounded font-bold flex gap-2 items-center" to="create">
+          <FaPlus />
           {lang === "ar" ? "اضافة مركز" : "New Center"}
         </NavLink>
       </div>

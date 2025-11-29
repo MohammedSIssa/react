@@ -1,7 +1,12 @@
-import { API } from "../scripts/globals";
+// import { API } from "../scripts/globals";
+import { API } from "@/JSC/scripts/globals";
 import { useState } from "react";
-import { useAuth } from "../hooks/useAuth";
-import { saveUser } from "../scripts/localStorage";
+// import { useAuth } from "../hooks/useAuth";
+import { useAuth } from "@/JSC/hooks/useAuth";
+
+// import { saveUser } from "../scripts/localStorage";
+import { saveUser } from "@/JSC/scripts/localStorage";
+
 import useLang from "../hooks/useLang";
 
 const Login = () => {

@@ -1,5 +1,8 @@
-import { fake_users } from "../../../fakeData/users";
-import useLang from "../../../hooks/useLang";
+// import { fake_users } from "../../../fakeData/users";
+// import useLang from "../../../hooks/useLang";
+
+import useLang from "@/JSC/hooks/useLang";
+import { fake_users } from "@/JSC/fakeData/users";
 
 export default function AllUsers() {
   const { lang } = useLang();

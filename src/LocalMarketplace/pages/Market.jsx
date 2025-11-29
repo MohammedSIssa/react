@@ -1,3 +1,3 @@
 export default function Market() {
-  return <h1>Market</h1> 
+  return <h1 className="text-2xl">Market</h1> 
 }
